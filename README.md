@@ -1,5 +1,7 @@
 ## Need some updates yet
 
-- Autocomplette
+- Autocompletes
 - Snippets
+- Git
+- Errors
 
