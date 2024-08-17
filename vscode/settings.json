@@ -1,0 +1,183 @@
+{
+    // Editor
+    "editor.formatOnType": false,
+    "editor.renderWhitespace": "selection",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.fontFamily": "FiraCode Nerd Font Mono",
+    "editor.formatOnSave": false,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "editor.codeActionsOnSave": {},
+    "editor.minimap.enabled": false,
+    "editor.codeLensFontFamily": "FiraCode Nerd Font Mono",
+    "editor.scrollbar.verticalScrollbarSize": 3,
+    "editor.scrollbar.horizontalScrollbarSize": 5,
+    "editor.lineNumbers": "off",
+
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.snippetSuggestions": "top",
+    "editor.hover.delay": 500,
+    "editor.hover.enabled": true,
+    "editor.matchBrackets": "always",
+    "editor.lightbulb.enabled": "on",
+    "editor.overviewRulerBorder": true,
+    "editor.semanticHighlighting.enabled": "configuredByTheme",
+    "editor.tabSize": 4,
+    "workbench.editor.showTabs": "multiple",
+    "window.density.editorTabHeight": "default",
+    "window.customTitleBarVisibility": "never",
+
+
+    // files
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.location": "top",
+    "workbench.colorCustomizations": {
+        "[Material Theme Darker High Contrast]": {}
+    },
+    "workbench.sideBar.location": "right",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "settings.json": "*.settings.json",
+        "local.settings.json": "*.settings.json"
+    },
+
+    // Search
+    "search.exclude": {
+        "**/node_modules/**": true,
+        "**/composer.lock": true,
+        "**/package-lock.json": true,
+        "**/bin/**": true,
+        "**/obj/**": true,
+        "**/.nuget.g.props": true,
+    },
+    "search.useIgnoreFiles": true,
+    "explorer.excludeGitIgnore": true,
+
+    // Basics vs code config or don't know define
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "window.title": "${folderName} ${separator} ${activeEditorShort}",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "diffEditor.renderSideBySide": true,
+
+
+    // Themes
+    "workbench.colorTheme": "NarutoDark",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.folders.color": "#a66b2d",
+    "material-icon-theme.saturation": 1,
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.layoutControl.enabled": false,
+
+
+    // Terminal
+    "terminal.integrated.defaultProfile.windows": "Arch (WSL)",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "terminal.integrated.profiles.windows": {
+        "pwsh": {
+            "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+            "args": [],
+            "icon": "terminal"
+        },
+    },
+    "terminal.integrated.profiles.linux": {
+        "arch": {
+            "path": "C:\\Windows\\system32\\wsl.exe",
+            "args": ["-d Arch"],
+            "icon": "terminal"
+        }
+    },
+
+
+    // VScode html, css, js
+    // "vscode_custom_css.imports": [
+    //     // CSS
+    //     .monaco.editor .scroll-decoration {
+    //         box-shadow: 0px 0px 20px rgba(0, 0, 0, .75) !important
+    //     }
+    // ],
+
+    // APC
+    "apc.electron": {
+        "frame": false,
+        "titleBarStyle": "hidden"
+    },
+
+    "window.titleBarStyle": "native",
+    "apc.font.family": "JetBrains Mono",
+    "apc.menubar.compact": true,
+
+    "apc.stylesheet": {
+        ".monaco.editor .scroll-decoration": "box-shadow: 0px 0px 20px rgba(0, 0, 0, .75) !important; top: -6px !important",
+        ".monaco-editor-hover, .monaco-hover":
+        "box-shadow: 0px 8px 32px rgba(0, 0, 0, .45) !important; padding: 10px !important; backgroung-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important; backdrop-filter: blur(3x) !important; border-radius; 20px !important; border: none !important",
+        ".quick-input-widget": "transform: translateY(-50%) !important; top: 50% !important; box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important; padding: 10px 10px 18px 10px !important; border-radius: 20px !important;",
+        ".monaco.list-rows": "background: transparent !important;",
+        ".quick-input-filter .monaco-inputbox": "border-radius: 12px !important; padding: 8px !important; border: none !important; background-color: rgba(34, 34, 34, .40) !important; font-size: 14px !important; margin-bottom: 16px !important;",
+        ".monaco-list-row:hover": "background: rgba(0, 0, 0, .2) !important;",
+        ".monaco-inputbox input::placeholder": "color: rgba(255, 255, 255, .3) !important;",
+        ".slider": "position: absolute !important; right: 2px !important; width: 2px !important; left: auto !important;",
+        ".composite.has-composite-bar.header-or-footer.header": "padding-left: 4px"
+    },
+
+
+    // WSL
+    "remote.WSL.downloadInBackground": true,
+    "security.allowedUNCHosts": [
+        "wsl.localhost", "wsl$"
+    ],
+
+    // Extensions - Some extensions normally I active just when I will use
+    // Dotnet - csharp
+    "dotnet.server.useOmnisharp": true,
+    "omnisharp.sdkPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203",
+    "omnisharp.sdkVersion": "8.0.203",
+    "omnisharp.enableLspDriver": true,
+    "omnisharp.useModernNet": true,
+    "csharp.maxProjectFileCountForDiagnosticAnalysis": 250,
+    "dotnet.backgroundAnalysis.compilerDiagnosticsScope": "openFiles",
+    "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "openFiles",
+
+    // -----------------------------
+    "extensions.ignoreRecommendations": true,
+    "git.openRepositoryInParentFolders": "never",
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true,
+    },
+
+    "cmake.configureOnOpen": true,
+    "terraform.languageServer.enable": true,
+    "redhat.telemetry.enabled": false,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.windows": "C:\\Users\\thoma\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\thoma\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+
+
+    "todohighlight.isEnable": true,
+
+
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ],
+    "breadcrumbs.enabled": false,
+}

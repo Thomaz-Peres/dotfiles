@@ -1,0 +1,1274 @@
+[
+    {
+        "identifier": {
+            "id": "lunuan.kubernetes-templates",
+            "uuid": "d45a266f-d304-4216-8d89-52091ce78376"
+        },
+        "version": "1.3.1",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/lunuan.kubernetes-templates-1.3.1",
+            "scheme": "file"
+        },
+        "relativeLocation": "lunuan.kubernetes-templates-1.3.1",
+        "metadata": {
+            "id": "d45a266f-d304-4216-8d89-52091ce78376",
+            "publisherId": "190c194a-08db-4846-a15e-8092ac9d0800",
+            "publisherDisplayName": "lunuan",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1711948396391,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "thomaz.preparing",
+            "uuid": "669407de-c51c-44eb-a05a-c9c66ffd4a83"
+        },
+        "version": "1.7.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/thomaz.preparing-1.7.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "thomaz.preparing-1.7.0",
+        "metadata": {
+            "id": "669407de-c51c-44eb-a05a-c9c66ffd4a83",
+            "publisherId": "69415be6-e946-4c05-889a-46ddc23cbfde",
+            "publisherDisplayName": "Thomaz",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1711948396385,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode.cpptools-extension-pack",
+            "uuid": "3957b2f6-f086-49b5-a7b4-5da772123130"
+        },
+        "version": "1.3.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode.cpptools-extension-pack-1.3.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode.cpptools-extension-pack-1.3.0",
+        "metadata": {
+            "id": "3957b2f6-f086-49b5-a7b4-5da772123130",
+            "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1711948396486,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-kubernetes-tools.vscode-kubernetes-tools",
+            "uuid": "4837e4f3-1b01-4732-b1a6-daa57ef64cab"
+        },
+        "version": "1.3.16",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.16",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-kubernetes-tools.vscode-kubernetes-tools-1.3.16",
+        "metadata": {
+            "id": "4837e4f3-1b01-4732-b1a6-daa57ef64cab",
+            "publisherId": "d5b943eb-b968-4c2d-b241-a117ce9c3961",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1711948396468,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "twxs.cmake",
+            "uuid": "2be7cf14-2603-402e-9771-fd79df83cdf8"
+        },
+        "version": "0.0.17",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/twxs.cmake-0.0.17",
+            "scheme": "file"
+        },
+        "relativeLocation": "twxs.cmake-0.0.17",
+        "metadata": {
+            "id": "2be7cf14-2603-402e-9771-fd79df83cdf8",
+            "publisherId": "b5ab7991-81a8-4557-af54-4cb8e01e85c1",
+            "publisherDisplayName": "twxs",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1711948396396,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "visualstudioexptteam.intellicode-api-usage-examples",
+            "uuid": "9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3"
+        },
+        "version": "0.2.8",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.8",
+            "scheme": "file"
+        },
+        "relativeLocation": "visualstudioexptteam.intellicode-api-usage-examples-0.2.8",
+        "metadata": {
+            "id": "9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3",
+            "publisherId": "e8db1608-52e8-4d8d-92a6-779c5db302a9",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1711948396378,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "gruntfuggly.todo-tree",
+            "uuid": "261cac81-cd7b-4555-bb41-0c2d2bcd3e70"
+        },
+        "version": "0.0.226",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/gruntfuggly.todo-tree-0.0.226",
+            "scheme": "file"
+        },
+        "relativeLocation": "gruntfuggly.todo-tree-0.0.226",
+        "metadata": {
+            "id": "261cac81-cd7b-4555-bb41-0c2d2bcd3e70",
+            "publisherId": "d4906d2e-f2ee-492d-9c7c-02b6160599ec",
+            "publisherDisplayName": "Gruntfuggly",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1711948396478,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "vsciot-vscode.vscode-arduino",
+            "uuid": "cf5a111e-3bd1-4e32-9526-20ec73780741"
+        },
+        "version": "0.6.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/vsciot-vscode.vscode-arduino-0.6.0-win32-x64",
+            "scheme": "file"
+        },
+        "relativeLocation": "vsciot-vscode.vscode-arduino-0.6.0-win32-x64",
+        "metadata": {
+            "id": "cf5a111e-3bd1-4e32-9526-20ec73780741",
+            "publisherId": "15649be7-03a9-49ca-aa38-126d6631543b",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "win32-x64",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1711948396493,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode-remote.remote-ssh-edit",
+            "uuid": "bfeaf631-bcff-4908-93ed-fda4ef9a0c5c"
+        },
+        "version": "0.86.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode-remote.remote-ssh-edit-0.86.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode-remote.remote-ssh-edit-0.86.0",
+        "metadata": {
+            "id": "bfeaf631-bcff-4908-93ed-fda4ef9a0c5c",
+            "publisherId": "ac9410a2-0d75-40ec-90de-b59bb705801d",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1712110611176,
+            "pinned": false,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode-remote.vscode-remote-extensionpack",
+            "uuid": "23d72dfc-8dd1-4e30-926e-8783b4378f13"
+        },
+        "version": "0.25.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode-remote.vscode-remote-extensionpack-0.25.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode-remote.vscode-remote-extensionpack-0.25.0",
+        "metadata": {
+            "id": "23d72dfc-8dd1-4e30-926e-8783b4378f13",
+            "publisherId": "ac9410a2-0d75-40ec-90de-b59bb705801d",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1712110611152,
+            "pinned": false,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode.remote-explorer",
+            "uuid": "11858313-52cc-4e57-b3e4-d7b65281e34b"
+        },
+        "version": "0.4.3",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode.remote-explorer-0.4.3",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode.remote-explorer-0.4.3",
+        "metadata": {
+            "id": "11858313-52cc-4e57-b3e4-d7b65281e34b",
+            "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1712110611179,
+            "pinned": false,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode.cpptools-themes",
+            "uuid": "99b17261-8f6e-45f0-9ad5-a69c6f509a4f"
+        },
+        "version": "2.0.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode.cpptools-themes-2.0.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode.cpptools-themes-2.0.0",
+        "metadata": {
+            "id": "99b17261-8f6e-45f0-9ad5-a69c6f509a4f",
+            "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1712150135763,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode.azure-repos",
+            "uuid": "25cfa506-1433-4595-a73f-61666807126d"
+        },
+        "version": "0.38.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode.azure-repos-0.38.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode.azure-repos-0.38.0",
+        "metadata": {
+            "id": "25cfa506-1433-4595-a73f-61666807126d",
+            "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1712789671772,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "github.remotehub",
+            "uuid": "fc7d7e85-2e58-4c1c-97a3-2172ed9a77cd"
+        },
+        "version": "0.62.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/github.remotehub-0.62.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "github.remotehub-0.62.0",
+        "metadata": {
+            "id": "fc7d7e85-2e58-4c1c-97a3-2172ed9a77cd",
+            "publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679002",
+            "publisherDisplayName": "GitHub",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1712789671762,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode.remote-repositories",
+            "uuid": "cf5142f0-3701-4992-980c-9895a750addf"
+        },
+        "version": "0.40.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode.remote-repositories-0.40.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode.remote-repositories-0.40.0",
+        "metadata": {
+            "id": "cf5142f0-3701-4992-980c-9895a750addf",
+            "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1712789671748,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "vadimcn.vscode-lldb",
+            "uuid": "bee31e34-a44b-4a76-9ec2-e9fd1439a0f6"
+        },
+        "version": "1.10.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/vadimcn.vscode-lldb-1.10.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "vadimcn.vscode-lldb-1.10.0",
+        "metadata": {
+            "id": "bee31e34-a44b-4a76-9ec2-e9fd1439a0f6",
+            "publisherId": "3b05d186-6311-4caa-99b5-09032a9d3cf5",
+            "publisherDisplayName": "Vadim Chugunov",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1712883609465,
+            "pinned": false,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-dotnettools.vscodeintellicode-csharp",
+            "uuid": "13fef117-0575-4dc5-b573-5cb945a69d0a"
+        },
+        "version": "2.1.11",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-dotnettools.vscodeintellicode-csharp-2.1.11-win32-x64",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-dotnettools.vscodeintellicode-csharp-2.1.11-win32-x64",
+        "metadata": {
+            "id": "13fef117-0575-4dc5-b573-5cb945a69d0a",
+            "publisherId": "d05e23de-3974-4ff0-8d47-23ee77830092",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "win32-x64",
+            "isApplicationScoped": false,
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1715019336335,
+            "pinned": false,
+            "preRelease": true,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "4ops.terraform",
+            "uuid": "b861aa84-146f-440f-b6be-76124b02b729"
+        },
+        "version": "0.2.5",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/4ops.terraform-0.2.5",
+            "scheme": "file"
+        },
+        "relativeLocation": "4ops.terraform-0.2.5",
+        "metadata": {
+            "id": "b861aa84-146f-440f-b6be-76124b02b729",
+            "publisherId": "db4dabe0-34d0-481a-884f-371ffc5cb27f",
+            "publisherDisplayName": "Anton Kulikov",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1715867100740,
+            "pinned": false,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "redhat.vscode-yaml",
+            "uuid": "2061917f-f76a-458a-8da9-f162de22b97e"
+        },
+        "version": "1.15.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/redhat.vscode-yaml-1.15.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "redhat.vscode-yaml-1.15.0",
+        "metadata": {
+            "id": "2061917f-f76a-458a-8da9-f162de22b97e",
+            "publisherId": "eed56242-9699-4317-8bc7-e9f4b9bdd3ff",
+            "publisherDisplayName": "Red Hat",
+            "targetPlatform": "undefined",
+            "isApplicationScoped": false,
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1717988583414,
+            "pinned": false,
+            "preRelease": false,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "vscode-icons-team.vscode-icons",
+            "uuid": "9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a"
+        },
+        "version": "12.8.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/vscode-icons-team.vscode-icons-12.8.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "vscode-icons-team.vscode-icons-12.8.0",
+        "metadata": {
+            "id": "9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a",
+            "publisherId": "652ad61d-3a6a-48ca-ab1a-80dc8953b2b6",
+            "publisherDisplayName": "VSCode Icons Team",
+            "targetPlatform": "undefined",
+            "isApplicationScoped": false,
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1717988583284,
+            "pinned": false,
+            "preRelease": false,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode.remote-server",
+            "uuid": "105c0b3c-07a9-4156-a4fc-4141040eb07e"
+        },
+        "version": "1.5.2",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode.remote-server-1.5.2",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode.remote-server-1.5.2",
+        "metadata": {
+            "id": "105c0b3c-07a9-4156-a4fc-4141040eb07e",
+            "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "isApplicationScoped": false,
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1718306831669,
+            "pinned": false,
+            "preRelease": false,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode.vscode-serial-monitor",
+            "uuid": "17dcad22-0c4b-428f-8a04-5d2629f1480e"
+        },
+        "version": "0.12.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode.vscode-serial-monitor-0.12.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode.vscode-serial-monitor-0.12.0",
+        "metadata": {
+            "id": "17dcad22-0c4b-428f-8a04-5d2629f1480e",
+            "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "isApplicationScoped": false,
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1718915176460,
+            "pinned": false,
+            "preRelease": false,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "usernamehw.errorlens",
+            "uuid": "9d8c32ab-354c-4daf-a9bf-20b633734435"
+        },
+        "version": "3.20.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/usernamehw.errorlens-3.20.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "usernamehw.errorlens-3.20.0",
+        "metadata": {
+            "id": "9d8c32ab-354c-4daf-a9bf-20b633734435",
+            "publisherId": "151820df-5dc5-4c97-8751-eb84643203fa",
+            "publisherDisplayName": "Alexander",
+            "targetPlatform": "undefined",
+            "isApplicationScoped": false,
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1719236808411,
+            "pinned": false,
+            "preRelease": false,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "jeff-hykin.better-cpp-syntax",
+            "uuid": "73767f91-7dcb-43cb-90b3-596d073eea1f"
+        },
+        "version": "1.27.1",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/jeff-hykin.better-cpp-syntax-1.27.1",
+            "scheme": "file"
+        },
+        "relativeLocation": "jeff-hykin.better-cpp-syntax-1.27.1",
+        "metadata": {
+            "id": "73767f91-7dcb-43cb-90b3-596d073eea1f",
+            "publisherId": "b734936b-6cc4-40c1-b17a-c6a7e1f680cd",
+            "publisherDisplayName": "Jeff Hykin",
+            "targetPlatform": "undefined",
+            "isApplicationScoped": false,
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1720839480985,
+            "pinned": false,
+            "preRelease": false,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-dotnettools.vscode-dotnet-runtime",
+            "uuid": "1aab81a1-b3d9-4aef-976b-577d5d90fe3f"
+        },
+        "version": "2.1.1",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.1.1",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-dotnettools.vscode-dotnet-runtime-2.1.1",
+        "metadata": {
+            "id": "1aab81a1-b3d9-4aef-976b-577d5d90fe3f",
+            "publisherId": "d05e23de-3974-4ff0-8d47-23ee77830092",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "isApplicationScoped": false,
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1721263099907,
+            "pinned": false,
+            "preRelease": true,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "github.codespaces",
+            "uuid": "4023d3e5-c840-4cdd-8b54-51c77548aa3f"
+        },
+        "version": "1.17.2",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/github.codespaces-1.17.2",
+            "scheme": "file"
+        },
+        "relativeLocation": "github.codespaces-1.17.2",
+        "metadata": {
+            "id": "4023d3e5-c840-4cdd-8b54-51c77548aa3f",
+            "publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679002",
+            "publisherDisplayName": "GitHub",
+            "targetPlatform": "undefined",
+            "isApplicationScoped": false,
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "installedTimestamp": 1721329123436,
+            "pinned": false,
+            "preRelease": false,
+            "source": "gallery"
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode-remote.remote-containers",
+            "uuid": "93ce222b-5f6f-49b7-9ab1-a0463c6238df"
+        },
+        "version": "0.381.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode-remote.remote-containers-0.381.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode-remote.remote-containers-0.381.0",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723083526696,
+            "pinned": false,
+            "source": "gallery",
+            "id": "93ce222b-5f6f-49b7-9ab1-a0463c6238df",
+            "publisherId": "ac9410a2-0d75-40ec-90de-b59bb705801d",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "isPreReleaseVersion": true,
+            "hasPreReleaseVersion": true,
+            "preRelease": true
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode.cpptools",
+            "uuid": "690b692e-e8a9-493f-b802-8089d50ac1b2"
+        },
+        "version": "1.21.6",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode.cpptools-1.21.6-win32-x64",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode.cpptools-1.21.6-win32-x64",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1722887468239,
+            "pinned": false,
+            "source": "gallery",
+            "id": "690b692e-e8a9-493f-b802-8089d50ac1b2",
+            "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "win32-x64",
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": true,
+            "preRelease": true
+        }
+    },
+    {
+        "identifier": {
+            "id": "guidotapia2.unicode-math-vscode",
+            "uuid": "30ac2c71-437b-44c5-b59e-abba378e7dfa"
+        },
+        "version": "0.3.5",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/guidotapia2.unicode-math-vscode-0.3.5",
+            "scheme": "file"
+        },
+        "relativeLocation": "guidotapia2.unicode-math-vscode-0.3.5",
+        "metadata": {
+            "installedTimestamp": 1722995332454,
+            "pinned": false,
+            "source": "gallery",
+            "id": "30ac2c71-437b-44c5-b59e-abba378e7dfa",
+            "publisherId": "236fa0c4-0136-47a0-8e4b-163cfed740ee",
+            "publisherDisplayName": "Guido Tapia",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "be5invis.vscode-custom-css",
+            "uuid": "1b160753-ae5e-42bb-82ad-d115ce5c10f4"
+        },
+        "version": "7.2.2",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/be5invis.vscode-custom-css-7.2.2",
+            "scheme": "file"
+        },
+        "relativeLocation": "be5invis.vscode-custom-css-7.2.2",
+        "metadata": {
+            "installedTimestamp": 1723037234806,
+            "pinned": false,
+            "source": "gallery",
+            "id": "1b160753-ae5e-42bb-82ad-d115ce5c10f4",
+            "publisherId": "8c148d69-cbc6-480b-bd8b-a42715926324",
+            "publisherDisplayName": "be5invis",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "maximedenes.vscoq",
+            "uuid": "95048fd8-0115-487b-922b-44d49fac178d"
+        },
+        "version": "2.1.7",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/maximedenes.vscoq-2.1.7",
+            "scheme": "file"
+        },
+        "relativeLocation": "maximedenes.vscoq-2.1.7",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723039263457,
+            "pinned": false,
+            "source": "gallery",
+            "id": "95048fd8-0115-487b-922b-44d49fac178d",
+            "publisherId": "d99838bb-fb35-43fc-856b-5deb37c67504",
+            "publisherDisplayName": "Maxime Dénès",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "drcika.apc-extension",
+            "uuid": "c445982f-a615-472b-a90e-0a9edd88b8e8"
+        },
+        "version": "0.4.1",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/drcika.apc-extension-0.4.1",
+            "scheme": "file"
+        },
+        "relativeLocation": "drcika.apc-extension-0.4.1",
+        "metadata": {
+            "installedTimestamp": 1723051121678,
+            "pinned": false,
+            "source": "gallery",
+            "id": "c445982f-a615-472b-a90e-0a9edd88b8e8",
+            "publisherId": "4339fafa-4bed-499a-af81-4eb425456c60",
+            "publisherDisplayName": "drcika",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "hashicorp.terraform",
+            "uuid": "4a23294b-fd16-4c51-9759-da9936474cf8"
+        },
+        "version": "2.33.2024080812",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/hashicorp.terraform-2.33.2024080812-win32-x64",
+            "scheme": "file"
+        },
+        "relativeLocation": "hashicorp.terraform-2.33.2024080812-win32-x64",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723120239604,
+            "pinned": false,
+            "source": "gallery",
+            "id": "4a23294b-fd16-4c51-9759-da9936474cf8",
+            "publisherId": "a8dd781d-e144-400a-943c-417165981be2",
+            "publisherDisplayName": "HashiCorp",
+            "targetPlatform": "win32-x64",
+            "updated": true,
+            "isPreReleaseVersion": true,
+            "hasPreReleaseVersion": true,
+            "preRelease": true
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode-remote.remote-ssh",
+            "uuid": "607fd052-be03-4363-b657-2bd62b83d28a"
+        },
+        "version": "0.113.1",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode-remote.remote-ssh-0.113.1",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode-remote.remote-ssh-0.113.1",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723157832473,
+            "pinned": false,
+            "source": "gallery",
+            "id": "607fd052-be03-4363-b657-2bd62b83d28a",
+            "publisherId": "ac9410a2-0d75-40ec-90de-b59bb705801d",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-azuretools.vscode-azurefunctions",
+            "uuid": "2ed5adbe-c4e1-4227-8e41-31e2095b30e3"
+        },
+        "version": "1.15.2",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-azuretools.vscode-azurefunctions-1.15.2",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-azuretools.vscode-azurefunctions-1.15.2",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723157878578,
+            "pinned": false,
+            "source": "gallery",
+            "id": "2ed5adbe-c4e1-4227-8e41-31e2095b30e3",
+            "publisherId": "52b787f2-79a9-4f32-99b4-393afe3005d3",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "wallabyjs.quokka-vscode",
+            "uuid": "aae0701b-111f-49c1-9000-abd37a442f28"
+        },
+        "version": "1.0.649",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/wallabyjs.quokka-vscode-1.0.649",
+            "scheme": "file"
+        },
+        "relativeLocation": "wallabyjs.quokka-vscode-1.0.649",
+        "metadata": {
+            "installedTimestamp": 1723250455628,
+            "pinned": false,
+            "source": "gallery",
+            "id": "aae0701b-111f-49c1-9000-abd37a442f28",
+            "publisherId": "9e43bb4e-4318-4e59-b5c2-df1109a963dd",
+            "publisherDisplayName": "Wallaby.js",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "equinusocio.vsc-material-theme",
+            "uuid": "45bfc9eb-5e03-487f-bffe-315fa6881d6a"
+        },
+        "version": "34.5.2",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/equinusocio.vsc-material-theme-34.5.2",
+            "scheme": "file"
+        },
+        "relativeLocation": "equinusocio.vsc-material-theme-34.5.2",
+        "metadata": {
+            "installedTimestamp": 1723250612920,
+            "pinned": false,
+            "source": "gallery",
+            "id": "45bfc9eb-5e03-487f-bffe-315fa6881d6a",
+            "publisherId": "3b9d55d2-da9e-415a-9bea-8d6bc07147d8",
+            "publisherDisplayName": "Equinusocio",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "pkief.material-icon-theme",
+            "uuid": "5db78037-f674-459f-a236-db622c427c5b"
+        },
+        "version": "5.9.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/pkief.material-icon-theme-5.9.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "pkief.material-icon-theme-5.9.0",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723413555655,
+            "pinned": false,
+            "source": "gallery",
+            "id": "5db78037-f674-459f-a236-db622c427c5b",
+            "publisherId": "f9e5bc2f-fea1-4075-917f-d83e01e69f56",
+            "publisherDisplayName": "Philipp Kief",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "equinusocio.vsc-material-theme-icons",
+            "uuid": "6959958f-be4d-42c4-8aa4-dc2c2f086b0a"
+        },
+        "version": "3.8.7",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/equinusocio.vsc-material-theme-icons-3.8.7",
+            "scheme": "file"
+        },
+        "relativeLocation": "equinusocio.vsc-material-theme-icons-3.8.7",
+        "metadata": {
+            "installedTimestamp": 1723508059014,
+            "source": "gallery",
+            "id": "6959958f-be4d-42c4-8aa4-dc2c2f086b0a",
+            "publisherId": "3b9d55d2-da9e-415a-9bea-8d6bc07147d8",
+            "publisherDisplayName": "Equinusocio",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-python.vscode-pylance",
+            "uuid": "364d2426-116a-433a-a5d8-a5098dc3afbd"
+        },
+        "version": "2024.8.101",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-python.vscode-pylance-2024.8.101",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-python.vscode-pylance-2024.8.101",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723514219116,
+            "pinned": false,
+            "source": "gallery",
+            "id": "364d2426-116a-433a-a5d8-a5098dc3afbd",
+            "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "isPreReleaseVersion": true,
+            "hasPreReleaseVersion": true,
+            "preRelease": true
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-azuretools.vscode-docker",
+            "uuid": "0479fc1c-3d67-49f9-b087-fb9069afe48f"
+        },
+        "version": "1.29.2",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-azuretools.vscode-docker-1.29.2",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-azuretools.vscode-docker-1.29.2",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723595428765,
+            "pinned": false,
+            "source": "gallery",
+            "id": "0479fc1c-3d67-49f9-b087-fb9069afe48f",
+            "publisherId": "52b787f2-79a9-4f32-99b4-393afe3005d3",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-dotnettools.csdevkit",
+            "uuid": "7ad42776-8f7e-4214-bf67-4f0b518ef629"
+        },
+        "version": "1.10.6",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-dotnettools.csdevkit-1.10.6-win32-x64",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-dotnettools.csdevkit-1.10.6-win32-x64",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723595428945,
+            "pinned": false,
+            "source": "gallery",
+            "id": "7ad42776-8f7e-4214-bf67-4f0b518ef629",
+            "publisherId": "d05e23de-3974-4ff0-8d47-23ee77830092",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "win32-x64",
+            "updated": true,
+            "isPreReleaseVersion": true,
+            "hasPreReleaseVersion": true,
+            "preRelease": true
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode-remote.remote-wsl",
+            "uuid": "f0c5397b-d357-4197-99f0-cb4202f22818"
+        },
+        "version": "0.88.2",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-vscode-remote.remote-wsl-0.88.2",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode-remote.remote-wsl-0.88.2",
+        "metadata": {
+            "installedTimestamp": 1723595836342,
+            "pinned": false,
+            "source": "gallery",
+            "id": "f0c5397b-d357-4197-99f0-cb4202f22818",
+            "publisherId": "ac9410a2-0d75-40ec-90de-b59bb705801d",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-dotnettools.csharp",
+            "uuid": "d0bfc4ab-1d3a-4487-8782-7cf6027b4fff"
+        },
+        "version": "2.43.16",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-dotnettools.csharp-2.43.16-win32-x64",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-dotnettools.csharp-2.43.16-win32-x64",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723670187824,
+            "pinned": false,
+            "source": "gallery",
+            "id": "d0bfc4ab-1d3a-4487-8782-7cf6027b4fff",
+            "publisherId": "d05e23de-3974-4ff0-8d47-23ee77830092",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "win32-x64",
+            "updated": true,
+            "isPreReleaseVersion": true,
+            "hasPreReleaseVersion": true,
+            "preRelease": true
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-azuretools.vscode-azureresourcegroups",
+            "uuid": "260e9ed1-160d-4f7e-807c-2eb076ba3846"
+        },
+        "version": "0.9.2",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-azuretools.vscode-azureresourcegroups-0.9.2",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-azuretools.vscode-azureresourcegroups-0.9.2",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723723549578,
+            "pinned": false,
+            "source": "gallery",
+            "id": "260e9ed1-160d-4f7e-807c-2eb076ba3846",
+            "publisherId": "52b787f2-79a9-4f32-99b4-393afe3005d3",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-python.python",
+            "uuid": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5"
+        },
+        "version": "2024.13.2024081501",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/ms-python.python-2024.13.2024081501-win32-x64",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-python.python-2024.13.2024081501-win32-x64",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723723549580,
+            "pinned": false,
+            "source": "gallery",
+            "id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
+            "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "win32-x64",
+            "updated": true,
+            "isPreReleaseVersion": true,
+            "hasPreReleaseVersion": true,
+            "preRelease": true
+        }
+    },
+    {
+        "identifier": {
+            "id": "eamodio.gitlens",
+            "uuid": "4de763bd-505d-4978-9575-2b7696ecf94e"
+        },
+        "version": "2024.8.1605",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/eamodio.gitlens-2024.8.1605",
+            "scheme": "file"
+        },
+        "relativeLocation": "eamodio.gitlens-2024.8.1605",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723813644893,
+            "pinned": false,
+            "source": "gallery",
+            "id": "4de763bd-505d-4978-9575-2b7696ecf94e",
+            "publisherId": "678d198b-9b2e-49d3-96ff-6d801c9575df",
+            "publisherDisplayName": "GitKraken",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "isPreReleaseVersion": true,
+            "hasPreReleaseVersion": true,
+            "preRelease": true
+        }
+    },
+    {
+        "identifier": {
+            "id": "rust-lang.rust-analyzer",
+            "uuid": "06574cb4-e5dc-4631-8174-a543a4533621"
+        },
+        "version": "0.4.2075",
+        "location": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\thoma\\.vscode-insiders\\extensions\\rust-lang.rust-analyzer-0.4.2075-win32-x64",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/thoma/.vscode-insiders/extensions/rust-lang.rust-analyzer-0.4.2075-win32-x64",
+            "path": "/c:/Users/thoma/.vscode-insiders/extensions/rust-lang.rust-analyzer-0.4.2075-win32-x64",
+            "scheme": "file"
+        },
+        "relativeLocation": "rust-lang.rust-analyzer-0.4.2075-win32-x64",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1723865142265,
+            "pinned": false,
+            "source": "gallery",
+            "id": "06574cb4-e5dc-4631-8174-a543a4533621",
+            "publisherId": "cb14a7a7-a188-40bd-a953-e0a20757c5dd",
+            "publisherDisplayName": "The Rust Programming Language ",
+            "targetPlatform": "win32-x64",
+            "updated": true,
+            "isPreReleaseVersion": true,
+            "hasPreReleaseVersion": true,
+            "preRelease": true
+        }
+    }
+]
