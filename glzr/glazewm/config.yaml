@@ -25,7 +25,7 @@ gaps:
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '40px'
+    top: '33px'
     right: '8px'
     bottom: '15px'
     left: '8px'
@@ -37,7 +37,7 @@ window_effects:
     # ** Exclusive to Windows 11 due to API limitations.
     border:
       enabled: true
-      color: '#8dbcff'
+      color: "#7ce38b"
 
   # Visual effects to apply to non-focused windows.
   other_windows:
@@ -67,7 +67,8 @@ window_behavior:
       maximized: false
 
       # Whether to show fullscreen windows as always on top.
-      shown_on_top: false
+      shown_on_top: true
+
 
 workspaces:
   - name: '1'
@@ -82,6 +83,7 @@ workspaces:
 
 window_rules:
   - commands: ['ignore']
+    match_process_name: "steam|vivaldi"
     match:
       # Ignores any Zebar windows.
       - window_process: { equals: 'zebar' }
@@ -95,17 +97,18 @@ window_rules:
       - window_process: { equals: 'Lively' }
         window_class: { regex: 'HwndWrapper*' }
 
+
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
   - name: 'resize'
     keybindings:
-      - commands: ['resize --width -2%']
+      - commands: ['resize --width -1%']
         bindings: ['h', 'left']
-      - commands: ['resize --width +2%']
+      - commands: ['resize --width +1%']
         bindings: ['l', 'right']
-      - commands: ['resize --height +2%']
+      - commands: ['resize --height +1%']
         bindings: ['k', 'up']
-      - commands: ['resize --height -2%']
+      - commands: ['resize --height -1%']
         bindings: ['j', 'down']
       # Press enter/escape to return to default keybindings.
       - commands: ['wm-disable-binding-mode --name resize']
@@ -131,22 +134,22 @@ keybindings:
 
   # Move focused window in a given direction.
   - commands: ['move --direction left']
-    bindings: ['alt+shift+h', 'alt+shift+left']
+    bindings: ['alt+shift+h']
   - commands: ['move --direction right']
-    bindings: ['alt+shift+l', 'alt+shift+right']
+    bindings: ['alt+shift+l']
   - commands: ['move --direction up']
-    bindings: ['alt+shift+k', 'alt+shift+up']
+    bindings: ['alt+shift+k']
   - commands: ['move --direction down']
-    bindings: ['alt+shift+j', 'alt+shift+down']
+    bindings: ['alt+shift+j']
 
   # Resize focused window by a percentage or pixel amount.
-  - commands: ['resize --width -5%']
+  - commands: ['resize --width -2%']
     bindings: ['alt+u']
-  - commands: ['resize --width +5%']
+  - commands: ['resize --width +2%']
     bindings: ['alt+p']
-  - commands: ['resize --height +5%']
+  - commands: ['resize --height +2%']
     bindings: ['alt+o']
-  - commands: ['resize --height -5%']
+  - commands: ['resize --height -2%']
     bindings: ['alt+i']
 
   # As an alternative to the resize keybindings above, resize mode enables

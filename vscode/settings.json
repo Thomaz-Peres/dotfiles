@@ -3,15 +3,17 @@
     "editor.formatOnType": false,
     "editor.renderWhitespace": "selection",
     "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.fontFamily": "FiraCode Nerd Font Mono",
+    "editor.fontFamily": "FiraCode Nerd Font",
     "editor.formatOnSave": false,
     "editor.fontLigatures": true,
     "editor.fontSize": 12,
+    "editor.cursorBlinking": "solid",
+    "editor.hover.sticky": true,
     "editor.codeActionsOnSave": {},
     "editor.minimap.enabled": false,
-    "editor.codeLensFontFamily": "FiraCode Nerd Font Mono",
-    "editor.scrollbar.verticalScrollbarSize": 3,
-    "editor.scrollbar.horizontalScrollbarSize": 5,
+    "editor.codeLensFontFamily": "FiraCode Nerd Font",
+    "editor.scrollbar.verticalScrollbarSize": 5,
+    "editor.scrollbar.horizontalScrollbarSize": 10,
     "editor.lineNumbers": "off",
 
     "editor.copyWithSyntaxHighlighting": false,
@@ -25,7 +27,6 @@
     "editor.semanticHighlighting.enabled": "configuredByTheme",
     "editor.tabSize": 4,
     "workbench.editor.showTabs": "multiple",
-    "window.density.editorTabHeight": "default",
     "window.customTitleBarVisibility": "never",
 
 
@@ -35,9 +36,6 @@
     "files.trimFinalNewlines": true,
     "workbench.statusBar.visible": true,
     "workbench.activityBar.location": "top",
-    "workbench.colorCustomizations": {
-        "[Material Theme Darker High Contrast]": {}
-    },
     "workbench.sideBar.location": "right",
     "workbench.editor.editorActionsLocation": "hidden",
     "explorer.fileNesting.enabled": true,
@@ -70,7 +68,10 @@
 
 
     // Themes
-    "workbench.colorTheme": "NarutoDark",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.colorCustomizations": {
+        "[Material Theme Darker High Contrast]": {}
+    },
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.theme": "specific",
     "material-icon-theme.folders.color": "#a66b2d",
@@ -81,7 +82,7 @@
 
     // Terminal
     "terminal.integrated.defaultProfile.windows": "Arch (WSL)",
-    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
     "terminal.integrated.profiles.windows": {
         "pwsh": {
             "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
@@ -107,26 +108,36 @@
     // ],
 
     // APC
+    "window.titleBarStyle": "native",
     "apc.electron": {
         "frame": false,
         "titleBarStyle": "hidden"
     },
+    "apc.activityBar": {
+        "size": 40,
+        "itemSize": 40,
+        "itemMargin": 0
+    },
 
-    "window.titleBarStyle": "native",
-    "apc.font.family": "JetBrains Mono",
+    "apc.font.family": "JetBrainsMono Nerd Font Mono",
+    // "apc.sidebar.titlebar": {"fontSize": 1, "height": 1},
+    // "apc.monospace.font.family": "JetBrains Mono",
     "apc.menubar.compact": true,
 
     "apc.stylesheet": {
         ".monaco.editor .scroll-decoration": "box-shadow: 0px 0px 20px rgba(0, 0, 0, .75) !important; top: -6px !important",
-        ".monaco-editor-hover, .monaco-hover":
-        "box-shadow: 0px 8px 32px rgba(0, 0, 0, .45) !important; padding: 10px !important; backgroung-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important; backdrop-filter: blur(3x) !important; border-radius; 20px !important; border: none !important",
+        ".monaco-editor-hover, .monaco-hover": "box-shadow: 0px 8px 32px rgba(0, 0, 0, .45) !important; padding: 10px !important; backgroung-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important; backdrop-filter: blur(3x) !important; border-radius; 20px !important; border: none !important",
         ".quick-input-widget": "transform: translateY(-50%) !important; top: 50% !important; box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important; padding: 10px 10px 18px 10px !important; border-radius: 20px !important;",
         ".monaco.list-rows": "background: transparent !important;",
         ".quick-input-filter .monaco-inputbox": "border-radius: 12px !important; padding: 8px !important; border: none !important; background-color: rgba(34, 34, 34, .40) !important; font-size: 14px !important; margin-bottom: 16px !important;",
         ".monaco-list-row:hover": "background: rgba(0, 0, 0, .2) !important;",
         ".monaco-inputbox input::placeholder": "color: rgba(255, 255, 255, .3) !important;",
         ".slider": "position: absolute !important; right: 2px !important; width: 2px !important; left: auto !important;",
-        ".composite.has-composite-bar.header-or-footer.header": "padding-left: 4px"
+        ".composite.has-composite-bar.header-or-footer.header": "padding-left: 4px",
+        // ".title-label": "display: none !important",
+        ".composite.title": "display: none !important",
+        ".monaco-workbench .part": "height: 100% !important",
+        // ".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: space-evenly !important"
     },
 
 
