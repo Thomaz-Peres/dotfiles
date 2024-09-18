@@ -1,10 +1,4 @@
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\multiverse-neon.omp.json" | Invoke-Expression
-
-Set-Alias -Name k -Value kubectl
-Set-Alias -Name v -Value nvim
-Set-Alias -Name code -Value 'code-insiders'
-
-Set-Alias lvim 'C:\Users\thoma\.local\bin\lvim.ps1'
+Import-Module -Name Terminal-Icons;
 
 function Update-PowerShell {
     # Refactor of CTT_L... kinda
@@ -23,6 +17,47 @@ function Update-PowerShell {
 };
 Update-PowerShell
 
+function gs {
+    git status;
+};
+
+function gcom($message) {
+    git commit -m $message;
+};
+
+# surprised this is a valid function name
+function .. {
+    # This is useful as fuck
+    Set-Location ..;
+};
+
+function which($name) {
+    Get-Command $name | Select-Object -ExpandProperty Definition
+};
+
+function ff($filename) {
+    # Rip from CTT_L
+    # TODO:
+    # - make it faster
+    Write-Host "Searching for all instances of ${filename}..." -ForegroundColor Yellow
+    Get-ChildItem -Recurse -Filter "*${filename}*" -ErrorAction SilentlyContinue | ForEach-Object {
+        Write-Output "$($_.Directory)\$($_)"
+    }
+};
+
+function reload {
+    & $PROFILE;
+};
+
+
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\multiverse-neon.omp.json" | Invoke-Expression
+
+Set-Alias -Name k -Value kubectl
+Set-Alias -Name v -Value nvim
+Set-Alias -Name code -Value 'code-insiders'
+
+Set-Alias lvim 'C:\Users\thoma\.local\bin\lvim.ps1'
+
 # Import the Chocolatey Profile that contains the necessary code to enable
 # tab-completions to function for `choco`.
 # Be aware that if you are missing these lines from your profile, tab completion
@@ -32,3 +67,5 @@ $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
+
+$Host.UI.RawUI.WindowTitle = "Terminal";
