@@ -1,3 +1,7 @@
 [2m2024-08-22T23:37:37.520057Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1]: missing field `commands` at line 99 column 5
 [2m2024-09-15T23:40:17.409427Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general.startup_commands: unrecognized subcommand
  at line 4 column 21
+[2m2024-09-18T01:58:15.027076Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '2' doesn't exist or is already active.
+[2m2024-09-18T01:58:15.903832Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '1' doesn't exist or is already active.
+[2m2024-09-18T21:56:07.304083Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m workspaces[2].keep_alive: invalid type: string "falseS", expected a boolean at line 86 column 17
+[2m2024-09-18T22:27:56.584055Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '4' doesn't exist or is already active.

@@ -23,7 +23,7 @@ body,
 
 #root {
   border-bottom: 1px solid rgb(255 255 255 / 5%);
-  background: linear-gradient(rgb(0 0 0 / 90%), rgb(5 2 20 / 85%));
+  background: rgb(0 0 0 / 90%);
 }
 
 .app {
@@ -140,18 +140,23 @@ body,
 
   #powerdown {
     color: var(--rp-moon-love);
+
     &:hover {
       background: color-mix(in srgb, currentColor 30%, transparent);
     }
   }
+
   #sleep {
     color: var(--rp-moon-rose);
+
     &:hover {
       background: color-mix(in srgb, currentColor 30%, transparent);
     }
   }
+
   #logout {
     color: var(--rp-moon-gold);
+
     &:hover {
       background: color-mix(in srgb, currentColor 30%, transparent);
     }
@@ -159,5 +164,17 @@ body,
 
   i {
     font-size: 19px;
+  }
+}
+
+
+.now-playing {
+  &>i {
+    color: var(--not-playing);
+
+    &.playing {
+      color: var(--now-playing);
+      animation: wiggle 10s infinite;
+    }
   }
 }

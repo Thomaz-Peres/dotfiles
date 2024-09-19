@@ -83,16 +83,24 @@ workspaces:
 
   - name: '3'
     display_name: 'Game'
-    keep_alive: true
+    keep_alive: false
     # bind_to_monitor: 0 // Uncomment when I back with two monitors
 
 
 window_rules:
   - commands: ['ignore']
-    match_process_name: "steam|vivaldi"
+    match_process_name: "vivaldi"
     match:
       # Ignores any Zebar windows.
       - window_process: { equals: 'zebar' }
+
+      # Windows apps
+      - window_process: { regex: 'Microsoft.Notes' }
+      - window_process: { equals: 'StickyNotes' }
+      # - window_process: { equals: 'League of Legends' }
+
+      # Ignore mumu player
+      - window_process: { equals: 'MuMuPlayer' }
 
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
@@ -102,6 +110,26 @@ window_rules:
       - window_process: { equals: 'PowerToys.PowerAccent' }
       - window_process: { equals: 'Lively' }
         window_class: { regex: 'HwndWrapper*' }
+
+  - commands: [ "move --workspace 1" ]
+    match:
+      - window_process: { equals: "msedge" }
+      - window_process: { equals: "Discord" }
+      - window_process: { equals: "spotify" }
+
+  - commands: [ "move --workspace 2" ]
+    match:
+      - window_process: { equals: "Code - Insiders" }
+      - window_process: { equals: "slack" }
+      - window_process: { equals: "chrome" }
+      - window_process: { equals: "Postman" }
+      - window_process: { equals: "devenv" }
+
+  - commands: [ "move --workspace 3" ]
+    match:
+      - window_process: { regex: "[Ss]team|[Ss]team[Ss]ervice|[Ss]team[Ww]eb[Hh]elper" }
+      # - window_process: { regex: "LeagueClient|LeagueClientUx" }
+
 
 
 binding_modes:

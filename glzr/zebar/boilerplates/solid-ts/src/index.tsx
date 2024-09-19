@@ -27,47 +27,8 @@ function App() {
 
   return (
     <div class="app">
+
       <div class="left">
-        <i class="dropdown-button hlogo nf nf-fa-windows" onClick={() => toggleDropdown()}></i>
-        {output.glazewm && (
-          <div class="workspaces">
-            {output.glazewm.currentWorkspaces.map(workspace => (
-              <button
-                class={`workspace ${workspace.hasFocus && 'focused'} ${workspace.isDisplayed && 'displayed'}`}
-                onClick={() =>
-                  output.glazewm.runCommand(
-                    `focus --workspace ${workspace.name}`,
-                  )
-                }
-              >
-                {workspace.displayName ?? workspace.name}
-              </button>
-            ))}
-          </div>
-        )}
-      </div>
-
-      <div class="center">{output.date.formatted}</div>
-
-      <div class="right">
-        {output.glazewm && (
-          <>
-            {output.glazewm.bindingModes.map(bindingMode => (
-              <button
-                class="binding-mode"
-              >
-                {bindingMode.displayName ?? bindingMode.name}
-              </button>
-            ))}
-
-            <button
-              class={`tiling-direction nf ${output.glazewm.tilingDirection === 'horizontal' ? 'nf-md-swap_horizontal' : 'nf-md-swap_vertical'}`}
-              onClick={() =>
-                output.glazewm.runCommand(`toggle-tiling-direction`)
-              }
-            ></button>
-          </>
-        )}
 
         {output.network && (
           <div class="network">
@@ -109,6 +70,74 @@ function App() {
             {Math.round(output.weather.celsiusTemp)}°C
           </div>
         )}
+      </div>
+
+      <div class="center">
+        {output.glazewm && (
+          <div class="workspaces">
+            {output.glazewm.currentWorkspaces.map(workspace => (
+              <button
+                class={`workspace ${workspace.hasFocus && 'focused'} ${workspace.isDisplayed && 'displayed'}`}
+                onClick={() =>
+                  output.glazewm.runCommand(
+                    `focus --workspace ${workspace.name}`,
+                  )
+                }
+              >
+                {workspace.displayName ?? workspace.name}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <div class="right">
+
+        {output.glazewm && (
+          <>
+            {output.glazewm.bindingModes.map(bindingMode => (
+              <button
+                class="binding-mode"
+              >
+                {bindingMode.displayName ?? bindingMode.name}
+              </button>
+            ))}
+
+            <button
+              class={`tiling-direction nf ${output.glazewm.tilingDirection === 'horizontal' ? 'nf-md-swap_horizontal' : 'nf-md-swap_vertical'}`}
+              onClick={() =>
+                output.glazewm.runCommand(`toggle-tiling-direction`)
+              }
+            ></button>
+          </>
+        )}
+
+        {output.glazewm && (
+          <>
+            {output.glazewm.allWorkspaces.forEach(workspace => {
+              console.log(workspace);
+              workspace.children.forEach(child => {
+                if (child.processName === "Spotify") {
+                    console.log(child);
+                    <>
+                      <i class="ti ti-music playing"></i>
+                      <p>nothing is playing</p>
+                    </>
+                  } else {
+                    <>
+                    <i class="ti ti-music playing"></i>
+                    <span class={child.title.length > 62 ? "move" : ""}>
+                      <p>{ child.title }</p>
+                    </span>
+                  </>
+                }
+              })
+            }
+            )}
+          </>
+        )}
+
+        {output.date.formatted}
       </div>
     </div>
   );
