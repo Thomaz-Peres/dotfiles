@@ -1,31 +1,31 @@
 export function getNetworkIcon(output) {
-    switch (output.network.defaultInterface?.type) {
-      case 'ethernet':
-        return <i class="nf nf-md-ethernet_cable"></i>;
-      case 'wifi':
-        if (output.network.defaultGateway?.signalStrength >= 80) {
-          return <i class="nf nf-md-wifi_strength_4"></i>;
-        } else if (
-          output.network.defaultGateway?.signalStrength >= 65
-        ) {
-          return <i class="nf nf-md-wifi_strength_3"></i>;
-        } else if (
-          output.network.defaultGateway?.signalStrength >= 40
-        ) {
-          return <i class="nf nf-md-wifi_strength_2"></i>;
-        } else if (
-          output.network.defaultGateway?.signalStrength >= 25
-        ) {
-          return <i class="nf nf-md-wifi_strength_1"></i>;
-        } else {
-          return <i class="nf nf-md-wifi_strength_outline"></i>;
-        }
-      default:
-        return (
-          <i class="nf nf-md-wifi_strength_off_outline"></i>
-        );
-    }
+  switch (output.network.defaultInterface?.type) {
+    case 'ethernet':
+      return <i class="nf nf-md-ethernet_cable"></i>;
+    case 'wifi':
+      if (output.network.defaultGateway?.signalStrength >= 80) {
+        return <i class="nf nf-md-wifi_strength_4"></i>;
+      } else if (
+        output.network.defaultGateway?.signalStrength >= 65
+      ) {
+        return <i class="nf nf-md-wifi_strength_3"></i>;
+      } else if (
+        output.network.defaultGateway?.signalStrength >= 40
+      ) {
+        return <i class="nf nf-md-wifi_strength_2"></i>;
+      } else if (
+        output.network.defaultGateway?.signalStrength >= 25
+      ) {
+        return <i class="nf nf-md-wifi_strength_1"></i>;
+      } else {
+        return <i class="nf nf-md-wifi_strength_outline"></i>;
+      }
+    default:
+      return (
+        <i class="nf nf-md-wifi_strength_off_outline"></i>
+      );
   }
+}
 
 // Get icon to show for how much of the battery is charged.
 export function getBatteryIcon(output) {

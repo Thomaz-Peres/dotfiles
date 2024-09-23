@@ -97,7 +97,6 @@ window_rules:
       # Windows apps
       - window_process: { regex: 'Microsoft.Notes' }
       - window_process: { equals: 'StickyNotes' }
-      # - window_process: { equals: 'League of Legends' }
 
       # Ignore mumu player
       - window_process: { equals: 'MuMuPlayer' }
@@ -119,7 +118,6 @@ window_rules:
 
   - commands: [ "move --workspace 2" ]
     match:
-      - window_process: { equals: "Code - Insiders" }
       - window_process: { equals: "slack" }
       - window_process: { equals: "chrome" }
       - window_process: { equals: "Postman" }
@@ -128,7 +126,6 @@ window_rules:
   - commands: [ "move --workspace 3" ]
     match:
       - window_process: { regex: "[Ss]team|[Ss]team[Ss]ervice|[Ss]team[Ww]eb[Hh]elper" }
-      # - window_process: { regex: "LeagueClient|LeagueClientUx" }
 
 
 

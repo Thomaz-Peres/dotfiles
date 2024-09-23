@@ -118,16 +118,16 @@ function App() {
               console.log(workspace);
               workspace.children.forEach(child => {
                 if (child.processName === "Spotify") {
-                    console.log(child);
-                    <>
-                      <i class="ti ti-music playing"></i>
-                      <p>nothing is playing</p>
-                    </>
-                  } else {
-                    <>
-                    <i class="ti ti-music playing"></i>
+                  console.log(child);
+                  <>
+                    {/* <i class="ti ti-music playing"></i> */}
+                    <p>nothing is playing</p>
+                  </>
+                } else {
+                  <>
+                    {/* <i class="ti ti-music playing"></i> */}
                     <span class={child.title.length > 62 ? "move" : ""}>
-                      <p>{ child.title }</p>
+                      <p>{child.title}</p>
                     </span>
                   </>
                 }

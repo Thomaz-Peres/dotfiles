@@ -9,6 +9,6 @@
 
 ## VsCode
 
-To install extensions in vscode, need to paste/copy/move the file "vscode/extensions.json" to .vscode-insiders/ -> extensions/
+To install extensions in vscode -> [gist](https://gist.github.com/Thomaz-Peres/8360d2ec564b0af15392b711fdd3fdc1)
 
-Just a test with gcom function is pwsh
+Some day I will update to a bash 🤡
