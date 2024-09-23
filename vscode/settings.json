@@ -7,13 +7,13 @@
     "editor.formatOnSave": false,
     "editor.fontLigatures": true,
     "editor.fontSize": 12,
-    "editor.cursorBlinking": "solid",
+    "editor.cursorBlinking": "smooth",
     "editor.hover.sticky": true,
     "editor.codeActionsOnSave": {},
     "editor.minimap.enabled": false,
     "editor.codeLensFontFamily": "FiraCode Nerd Font",
     "editor.scrollbar.verticalScrollbarSize": 5,
-    "editor.scrollbar.horizontalScrollbarSize": 10,
+    "editor.scrollbar.horizontalScrollbarSize": 15,
     "editor.lineNumbers": "off",
 
     "editor.copyWithSyntaxHighlighting": false,
@@ -28,12 +28,13 @@
     "editor.tabSize": 4,
     "workbench.editor.showTabs": "multiple",
     "window.customTitleBarVisibility": "never",
-
+    "editor.wordWrap": "on",
 
     // files
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
+    "files.autoGuessEncoding": true,
     "workbench.statusBar.visible": true,
     "workbench.activityBar.location": "top",
     "workbench.sideBar.location": "right",
@@ -65,9 +66,6 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "diffEditor.renderSideBySide": true,
-
-
-    // Themes
     "workbench.colorTheme": "GitHub Dark Default",
     "workbench.colorCustomizations": {
         "[Material Theme Darker High Contrast]": {}
@@ -144,7 +142,8 @@
     // WSL
     "remote.WSL.downloadInBackground": true,
     "security.allowedUNCHosts": [
-        "wsl.localhost", "wsl$"
+        "wsl.localhost",
+        "wsl$"
     ],
 
     // Extensions - Some extensions normally I active just when I will use
@@ -176,7 +175,6 @@
 
     "todohighlight.isEnable": true,
 
-
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
         "javascript",
@@ -190,5 +188,9 @@
             "autoFix": true
         }
     ],
+    "update.mode": "manual",
+    "debug.allowBreakpointsEverywhere": true,
     "breadcrumbs.enabled": false,
+    "window.newWindowProfile": "Default",
+    "extensions.autoUpdate": false,
 }
