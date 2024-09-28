@@ -2,13 +2,10 @@
 import './index.css';
 import { render } from 'solid-js/web';
 import { createStore } from 'solid-js/store';
-import { init } from 'zebar';
-import { logout, toggleDropdown, powerDown, sleep } from './scipts/menu'
-import { getNetworkIcon, getBatteryIcon, getWeatherIcon } from './icons';
+import * as zebar from 'zebar';
+import { getBatteryIcon, getNetworkIcon, getWeatherIcon } from './icons';
 
-const zebarCtx = await init();
-
-const providers = await zebarCtx.createProviderGroup({
+const providers = zebar.createProviderGroup({
   network: { type: 'network' },
   glazewm: { type: 'glazewm' },
   cpu: { type: 'cpu' },
@@ -32,14 +29,14 @@ function App() {
 
         {output.network && (
           <div class="network">
-            {getNetworkIcon(output)}
-            {output.network.defaultGateway?.ssid}
+            {getNetworkIcon(output.network)}
+            {output.network?.defaultGateway?.ssid}
           </div>
         )}
 
         <div class="memory">
           <i class="nf nf-fae-chip"></i>
-          {Math.round(output.memory.usage)}%
+          {Math.round(output.memory?.usage)}%
         </div>
 
         <div class="cpu">
@@ -47,9 +44,9 @@ function App() {
 
           {/* Change the text color if the CPU usage is high. */}
           <span
-            class={output.cpu.usage > 85 ? 'high-usage' : ''}
+            class={output.cpu?.usage > 85 ? 'high-usage' : ''}
           >
-            {Math.round(output.cpu.usage)}%
+            {Math.round(output.cpu?.usage)}%
           </span>
         </div>
 
@@ -59,14 +56,14 @@ function App() {
             {output.battery.isCharging && (
               <i class="nf nf-md-power_plug charging-icon"></i>
             )}
-            {getBatteryIcon(output)}
+            {getBatteryIcon(output.battery)}
             {Math.round(output.battery.chargePercent)}%
           </div>
         )}
 
         {output.weather && (
           <div class="weather">
-            {getWeatherIcon(output)}
+            {getWeatherIcon(output.weather)}
             {Math.round(output.weather.celsiusTemp)}°C
           </div>
         )}
@@ -126,7 +123,7 @@ function App() {
                 } else {
                   <>
                     {/* <i class="ti ti-music playing"></i> */}
-                    <span class={child.title.length > 62 ? "move" : ""}>
+                    <span class={child.title?.length > 62 ? "move" : ""}>
                       <p>{child.title}</p>
                     </span>
                   </>
@@ -137,7 +134,7 @@ function App() {
           </>
         )}
 
-        {output.date.formatted}
+        {output.date?.formatted}
       </div>
     </div>
   );
