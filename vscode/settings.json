@@ -2,7 +2,7 @@
     // Editor
     "editor.formatOnType": false,
     "editor.renderWhitespace": "selection",
-    "editor.unicodeHighlight.nonBasicASCII": false,
+    // "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.fontFamily": "FiraCode Nerd Font",
     "editor.formatOnSave": false,
     "editor.fontLigatures": true,
@@ -29,6 +29,7 @@
     "workbench.editor.showTabs": "multiple",
     "window.customTitleBarVisibility": "never",
     "editor.wordWrap": "on",
+    "window.newWindowProfile": "Default",
 
     // files
     "files.trimTrailingWhitespace": true,
@@ -59,14 +60,16 @@
 
     // Basics vs code config or don't know define
     "window.commandCenter": false,
-    "window.menuBarVisibility": "compact",
-    "window.title": "${folderName} ${separator} ${activeEditorShort}",
+    "window.menuBarVisibility": "toggle",
+    "window.titleSeparator": "",
+    // "window.title": "${folderName} ${separator} ${activeEditorShort}",
+    "window.title": " ",
     "diffEditor.ignoreTrimWhitespace": false,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "diffEditor.renderSideBySide": true,
-    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.colorTheme": "NarutoDark",
     "workbench.colorCustomizations": {
         "[Material Theme Darker High Contrast]": {}
     },
@@ -96,21 +99,13 @@
         }
     },
 
-
-    // VScode html, css, js
-    // "vscode_custom_css.imports": [
-    //     // CSS
-    //     .monaco.editor .scroll-decoration {
-    //         box-shadow: 0px 0px 20px rgba(0, 0, 0, .75) !important
-    //     }
-    // ],
-
     // APC
-    "window.titleBarStyle": "native",
+    // "window.titleBarStyle": "native",
     "apc.electron": {
         "frame": false,
-        "titleBarStyle": "hidden"
+        "titleBarStyle": "hidden",
     },
+
     "apc.activityBar": {
         "size": 40,
         "itemSize": 40,
@@ -175,6 +170,7 @@
 
     "todohighlight.isEnable": true,
 
+
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
         "javascript",
@@ -190,7 +186,6 @@
     ],
     "update.mode": "manual",
     "debug.allowBreakpointsEverywhere": true,
-    "breadcrumbs.enabled": false,
-    "window.newWindowProfile": "Default",
     "extensions.autoUpdate": false,
+    "breadcrumbs.enabled": false
 }

@@ -1,5 +1,6 @@
 code --install-extension 4ops.terraform
 code --install-extension be5invis.vscode-custom-css
+code --install-extension darianmorat.darian-theme
 code --install-extension drcika.apc-extension
 code --install-extension eamodio.gitlens
 code --install-extension equinusocio.vsc-material-theme
