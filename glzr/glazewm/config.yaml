@@ -25,7 +25,7 @@ gaps:
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '45px'
+    top: '50px'
     right: '20px'
     bottom: '20px'
     left: '20px'
@@ -72,20 +72,29 @@ window_behavior:
 
 workspaces:
   - name: '1'
-    display_name: 'Home'
+    display_name: ''
     keep_alive: true
     # bind_to_monitor: 0 // Uncomment when I back with two monitors
 
   - name: '2'
-    display_name: 'Dev'
+    display_name: '󰨞'
     keep_alive: true
     # bind_to_monitor: 0 // Uncomment when I back with two monitors
 
   - name: '3'
-    display_name: 'Game'
-    keep_alive: false
+    display_name: '󰻞'
+    keep_alive: true
     # bind_to_monitor: 0 // Uncomment when I back with two monitors
 
+  - name: '4'
+    display_name: ''
+    keep_alive: true
+    # bind_to_monitor: 0 // Uncomment when I back with two monitors
+
+  - name: '5'
+    display_name: ''
+    keep_alive: true
+    # bind_to_monitor: 0 // Uncomment when I back with two monitors
 
 window_rules:
   - commands: ['ignore']
@@ -113,20 +122,19 @@ window_rules:
   - commands: [ "move --workspace 1" ]
     match:
       - window_process: { equals: "msedge" }
-      - window_process: { equals: "Discord" }
       - window_process: { equals: "spotify" }
 
   - commands: [ "move --workspace 2" ]
     match:
-      - window_process: { equals: "slack" }
-      - window_process: { equals: "chrome" }
+      # - window_process: { equals: "Code - Insiders" }
       - window_process: { equals: "Postman" }
       - window_process: { equals: "devenv" }
 
   - commands: [ "move --workspace 3" ]
     match:
-      - window_process: { regex: "[Ss]team|[Ss]team[Ss]ervice|[Ss]team[Ww]eb[Hh]elper" }
-
+      - window_process: { equals: "chrome" }
+      - window_process: { equals: "Discord" }
+      - window_process: { regex : "[Ss]lack" }
 
 
 binding_modes:
@@ -257,8 +265,6 @@ keybindings:
     bindings: ['alt+2']
   - commands: ['focus --workspace 3']
     bindings: ['alt+3']
-  - commands: ['focus --workspace 4']
-    bindings: ['alt+4']
 
   # Move the focused window's parent workspace to a monitor in a given
   # direction.
@@ -278,15 +284,3 @@ keybindings:
     bindings: ['alt+shift+2']
   - commands: ['move --workspace 3', 'focus --workspace 3']
     bindings: ['alt+shift+3']
-  - commands: ['move --workspace 4', 'focus --workspace 4']
-    bindings: ['alt+shift+4']
-  - commands: ['move --workspace 5', 'focus --workspace 5']
-    bindings: ['alt+shift+5']
-  - commands: ['move --workspace 6', 'focus --workspace 6']
-    bindings: ['alt+shift+6']
-  - commands: ['move --workspace 7', 'focus --workspace 7']
-    bindings: ['alt+shift+7']
-  - commands: ['move --workspace 8', 'focus --workspace 8']
-    bindings: ['alt+shift+8']
-  - commands: ['move --workspace 9', 'focus --workspace 9']
-    bindings: ['alt+shift+9']

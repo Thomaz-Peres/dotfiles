@@ -27,6 +27,90 @@ function App() {
 
       <div class="left">
 
+        {output.glazewm && (
+          <div class="workspaces">
+            {output.glazewm.currentWorkspaces.map(workspace => (
+              <button
+                class={`workspace ${workspace.hasFocus && 'focused'} ${workspace.isDisplayed && 'displayed'}`}
+                onClick={() =>
+                  output.glazewm.runCommand(
+                    `focus --workspace ${workspace.name}`,
+                  )
+                }
+              >
+                {workspace.displayName ?? workspace.name}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {output.glazewm && (
+          <>
+            {output.glazewm.bindingModes.map(bindingMode => (
+              <button
+                class="binding-mode"
+              >
+                {bindingMode.displayName ?? bindingMode.name}
+              </button>
+            ))}
+
+            <button
+              class={`tiling-direction nf ${output.glazewm.tilingDirection === 'horizontal' ? 'nf-md-swap_horizontal' : 'nf-md-swap_vertical'}`}
+              onClick={() =>
+                output.glazewm.runCommand(`toggle-tiling-direction`)
+              }
+            ></button>
+          </>
+        )}
+
+      </div>
+
+      <div class="center">
+
+      {output.glazewm && (
+          <>
+            {output.glazewm.focusedWorkspace.children.map((child) =>
+              child.hasFocus && (
+                <div class="current-window">
+                {child.title.length > 90
+                  ? child.title.slice(0, 90) + '...'
+                  : child.title}
+                  </div>
+                ),
+              )
+            }
+          </>
+        )}
+
+      </div>
+
+      <div class="right">
+
+        {output.glazewm && (
+          <>
+            {output.glazewm.allWorkspaces.forEach(workspace => {
+              console.log(workspace);
+              workspace.children.forEach(child => {
+                if (child.processName === "Spotify") {
+                  console.log(child);
+                  <>
+                    {/* <i class="ti ti-music playing"></i> */}
+                    <p>nothing is playing</p>
+                  </>
+                } else {
+                  <>
+                    {/* <i class="ti ti-music playing"></i> */}
+                    <span class={child.title?.length > 62 ? "move" : ""}>
+                      <p>{child.title}</p>
+                    </span>
+                  </>
+                }
+              })
+            }
+            )}
+          </>
+        )}
+
         {output.network && (
           <div class="network">
             {getNetworkIcon(output.network)}
@@ -67,74 +151,10 @@ function App() {
             {Math.round(output.weather.celsiusTemp)}°C
           </div>
         )}
-      </div>
 
-      <div class="center">
-        {output.glazewm && (
-          <div class="workspaces">
-            {output.glazewm.currentWorkspaces.map(workspace => (
-              <button
-                class={`workspace ${workspace.hasFocus && 'focused'} ${workspace.isDisplayed && 'displayed'}`}
-                onClick={() =>
-                  output.glazewm.runCommand(
-                    `focus --workspace ${workspace.name}`,
-                  )
-                }
-              >
-                {workspace.displayName ?? workspace.name}
-              </button>
-            ))}
-          </div>
-        )}
-      </div>
-
-      <div class="right">
-
-        {output.glazewm && (
-          <>
-            {output.glazewm.bindingModes.map(bindingMode => (
-              <button
-                class="binding-mode"
-              >
-                {bindingMode.displayName ?? bindingMode.name}
-              </button>
-            ))}
-
-            <button
-              class={`tiling-direction nf ${output.glazewm.tilingDirection === 'horizontal' ? 'nf-md-swap_horizontal' : 'nf-md-swap_vertical'}`}
-              onClick={() =>
-                output.glazewm.runCommand(`toggle-tiling-direction`)
-              }
-            ></button>
-          </>
-        )}
-
-        {output.glazewm && (
-          <>
-            {output.glazewm.allWorkspaces.forEach(workspace => {
-              console.log(workspace);
-              workspace.children.forEach(child => {
-                if (child.processName === "Spotify") {
-                  console.log(child);
-                  <>
-                    {/* <i class="ti ti-music playing"></i> */}
-                    <p>nothing is playing</p>
-                  </>
-                } else {
-                  <>
-                    {/* <i class="ti ti-music playing"></i> */}
-                    <span class={child.title?.length > 62 ? "move" : ""}>
-                      <p>{child.title}</p>
-                    </span>
-                  </>
-                }
-              })
-            }
-            )}
-          </>
-        )}
-
-        {output.date?.formatted}
+        <div class="date">
+          {output.date?.formatted}
+        </div>
       </div>
     </div>
   );
