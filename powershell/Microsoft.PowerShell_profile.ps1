@@ -25,6 +25,18 @@ function gcom($message) {
     git commit -m $message;
 };
 
+function gcoma($message) {
+    git commit -a -m $message;
+};
+
+function gpsh() {
+    git push;
+};
+
+function grb($origin_branch) {
+    git rebase origin/rebase_branch;
+};
+
 # surprised this is a valid function name
 function .. {
     # This is useful as fuck
