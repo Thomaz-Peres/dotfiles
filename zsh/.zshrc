@@ -17,10 +17,12 @@ export LIBGL_ALWAYS_INDIRECT=1
 # export DOTNET_ROOT=/home/tomenos/.asdf/installs/dotnet
 # export MSBuildSDKsPath=${DOTNET_ROOT}/8.0.203/sdk/8.0.203/
 
-alias ls="exa --icons"
+alias ls="eza --icons"
+alias lsa="eza -la --icons"
 alias bat="bat --style=auto"
 alias code="code-insiders"
 alias k="kubectl"
+
 
 source /opt/asdf-vm/asdf.sh
 
