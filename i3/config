@@ -2,10 +2,10 @@ set $terminal alacritty
 
 # use these keys for focus, movement, and resize directions when reaching for
 # the arrows is not convenient
-set $up l
-set $down k
-set $left j
-set $right semicolon
+set $up k
+set $down j
+set $left h
+set $right l
 
 # i3 config file (v4)
 #
@@ -82,7 +82,6 @@ bindsym Mod1+Shift+Right move right
 
 # split in horizontal orientation
 bindsym Mod1+z split h
-
 # split in vertical orientation
 bindsym Mod1+v split v
 
@@ -217,53 +216,62 @@ client.unfocused	    	$purple	 	 $black   	$grey		$darkgrey		$darkgrey
 client.focused_inactive		$black   	$black  	$grey		$darkgrey		$darkgrey
 client.urgent		    	$urgentred	$urgentred	$white		$darkblue	$yellowbrown
 
-# Start i3blocks to display a workspace bar
 bar {
-    font pango: FiraCode Nerd Font medium 11
-    mode dock
-    # status_command i3status
-    # i3bar_command i3bar
-    # output primary
+    status_command i3status
+    font pango: consolas normal 10
+    i3bar_command i3bar
     position bottom
+    output primary
     status_command i3blocks -c ~/.config/i3/i3blocks.conf
-    i3bar_command i3bar --transparency
-    strip_workspace_numbers yes
-    tray_output none
-
-    colors {
-		    separator          $purple
-		  #  background         $darkgrey
-		    background	#1e1e2eD9
-		    statusline         $white
-#                          		border 		        bg		txt
-		focused_workspace	#1e1e2eD9	   	#1e1e2eD9 	#cdd6f4
-		active_workspace	#1e1e2eD9 	      	#1e1e2eD9 	#a6adc8
-		inactive_workspace	#1e1e2eD9   		#1e1e2eD9	#7f849c
-		urgent_workspace	#1e1e2eD9	    	#1e1e2eD9  	#a6e3a1
-	}
 }
 
-bar {
-    font pango: FiraCode Nerd Font Mono 9
-    status_command i3blocks -c ~/.config/i3/i3blocks.conf
-    output nonprimary
-    position bottom
-    strip_workspace_numbers yes
-    tray_output DP-4
-
-    colors {
-		    separator          $purple
-		  #  background         $darkgrey
-		    background	#1e1e2eD9
-		    statusline         $white
-#                          		border 		        bg		txt
-		focused_workspace	#1e1e2eD9	   	#1e1e2eD9 	#cdd6f4
-		active_workspace	#1e1e2eD9 	      	#1e1e2eD9 	#a6adc8
-		inactive_workspace	#1e1e2eD9   		#1e1e2eD9	#7f849c
-		urgent_workspace	#1e1e2eD9	    	#1e1e2eD9  	#a6e3a1
-	}
-}
-
+# # Start i3blocks to display a workspace bar
+# bar {
+#     font pango: FiraCode Nerd Font medium 11
+#     mode dock
+#     # status_command i3status
+#     # i3bar_command i3bar
+#     # output primary
+#     position bottom
+#     status_command i3blocks -c ~/.config/i3/i3blocks.conf
+#     i3bar_command i3bar --transparency
+#     strip_workspace_numbers yes
+#     tray_output none
+#
+#     colors {
+# 		    separator          $purple
+# 		  #  background         $darkgrey
+# 		    background	#1e1e2eD9
+# 		    statusline         $white
+# #                          		border 		        bg		txt
+# 		focused_workspace	#1e1e2eD9	   	#1e1e2eD9 	#cdd6f4
+# 		active_workspace	#1e1e2eD9 	      	#1e1e2eD9 	#a6adc8
+# 		inactive_workspace	#1e1e2eD9   		#1e1e2eD9	#7f849c
+# 		urgent_workspace	#1e1e2eD9	    	#1e1e2eD9  	#a6e3a1
+# 	}
+# }
+#
+# bar {
+#     font pango: FiraCode Nerd Font Mono 9
+#     status_command i3blocks -c ~/.config/i3/i3blocks.conf
+#     output nonprimary
+#     position bottom
+#     strip_workspace_numbers yes
+#     tray_output DP-4
+#
+#     colors {
+# 		    separator          $purple
+# 		  #  background         $darkgrey
+# 		    background	#1e1e2eD9
+# 		    statusline         $white
+# #                          		border 		        bg		txt
+# 		focused_workspace	#1e1e2eD9	   	#1e1e2eD9 	#cdd6f4
+# 		active_workspace	#1e1e2eD9 	      	#1e1e2eD9 	#a6adc8
+# 		inactive_workspace	#1e1e2eD9   		#1e1e2eD9	#7f849c
+# 		urgent_workspace	#1e1e2eD9	    	#1e1e2eD9  	#a6e3a1
+# 	}
+# }
+#
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
 # keysym-based config which used their favorite modifier (alt or windows)
@@ -274,4 +282,4 @@ bar {
 #
 # Please remove the following exec line:
 #######################################################################
-exec i3-config-wizard
+exec i3-config
