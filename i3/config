@@ -68,6 +68,7 @@ bindsym $mod+m exec microsoft-edge-stable
 bindsym $mod+p exec pavucontrol
 bindsym $mod+c exec code
 bindsym $mod+Shift+p exec flameshot gui
+# bindsym $mod+w exec sxiv -bt ~/pictures/wallpapers/*
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -188,8 +189,8 @@ mode "resize" {
 
 # Gaps
 # focus_follows_mouse no
-gaps inner 10
-gaps outer 10
+gaps inner 0
+gaps outer 0
 # smart_gaps on
 # hide_edge_borders none
 # tiling_drag modifier titlebar
@@ -228,6 +229,8 @@ bar {
     output primary
     status_command i3blocks -c ~/.config/i3/i3blocks.conf
 }
+
+exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/dark_forest.png
 
 # # Start i3blocks to display a workspace bar
 # bar {
