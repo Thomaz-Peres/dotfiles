@@ -27,26 +27,6 @@
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
     "editor.smoothScrolling": false,
-    // "editor.tokenColorCustomizations": {
-    //     "[NarutoDark]": {
-    //         "textMateRules": [
-    //             {
-    //                 "scope": [
-    //                     "comment",
-    //                     "comment.line.double-slash.cs",
-    //                     "comment.block.documentation",
-    //                     "comment.block.documentation.js",
-    //                     "comment.line.double-slash.js",
-    //                 ],
-    //                 "settings": {
-    //                     "foreground": "#ffffff"
-    //                 }
-    //             }
-    //         ]
-    //     }
-    // },
-
-
     // Workbench
     "workbench.colorTheme": "Default Dark Modern",
     "workbench.statusBar.visible": true,
@@ -60,13 +40,48 @@
         "sideBar.border": "#00000000",
         "tab.activeBackground": "#332f49",
         "terminal.border": "#000000",
-	},
+        "[Vira*]": {
+            "toolbar.activeBackground": "#80CBC426",
+            "activityBarBadge.background": "#80CBC4",
+            "activityBar.activeBorder": "#80CBC4",
+            "activityBarTop.activeBorder": "#80CBC4",
+            "list.inactiveSelectionIconForeground": "#80CBC4",
+            "list.activeSelectionForeground": "#80CBC4",
+            "list.inactiveSelectionForeground": "#80CBC4",
+            "list.highlightForeground": "#80CBC4",
+            "sash.hoverBorder": "#80CBC480",
+            "list.activeSelectionIconForeground": "#80CBC4",
+            "scrollbarSlider.activeBackground": "#80CBC480",
+            "editorSuggestWidget.highlightForeground": "#80CBC4",
+            "textLink.foreground": "#80CBC4",
+            "progressBar.background": "#80CBC4",
+            "pickerGroup.foreground": "#80CBC4",
+            "tab.activeBorder": "#80CBC4",
+            "notificationLink.foreground": "#80CBC4",
+            "editorWidget.resizeBorder": "#80CBC4",
+            "editorWidget.border": "#80CBC4",
+            "settings.modifiedItemIndicator": "#80CBC4",
+            "settings.headerForeground": "#80CBC4",
+            "panelTitle.activeBorder": "#80CBC4",
+            "breadcrumb.activeSelectionForeground": "#80CBC4",
+            "menu.selectionForeground": "#80CBC4",
+            "menubar.selectionForeground": "#80CBC4",
+            "editor.findMatchBorder": "#80CBC4",
+            "selection.background": "#80CBC440",
+            "statusBarItem.remoteBackground": "#80CBC4",
+            "notebook.inactiveFocusedCellBorder": "#80CBC480",
+            "commandCenter.activeBorder": "#80CBC480"
+        }
+    },
 
 
     // Files
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
+    "files.associations": {
+        "*.json": "jsonc"
+    },
 
     // Explorer
     "explorer.fileNesting.enabled": true,
@@ -100,9 +115,6 @@
     },
     "search.useIgnoreFiles": true,
     "diffEditor.ignoreTrimWhitespace": false,
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
     "diffEditor.renderSideBySide": true,
 
 
@@ -164,6 +176,15 @@
         ".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: space-evenly !important"
     },
 
+    // Files config
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.quickSuggestions": {
+            "comments": "on"
+        },
+    },
+
+
 
     // Extensions - Some extensions normally I active just when I will use
     "extensions.autoUpdate": false,
@@ -182,7 +203,7 @@
 
     // Git
     "git.openRepositoryInParentFolders": "never",
-    "git.autofetch": true,
+    "git.autofetch": false,
     "gitlens.advanced.messages": {
         "suppressGitMissingWarning": true,
     },
@@ -230,5 +251,6 @@
     "update.mode": "manual",
     "debug.allowBreakpointsEverywhere": true,
     "lldb.suppressUpdateNotifications": true,
+    "security.workspace.trust.untrustedFiles": "open",
     // CTRL + SHIFT + . to activate/desactivate breadcrumbs
 }

@@ -37,6 +37,22 @@ function grb($origin_branch) {
     git rebase origin/rebase_branch;
 };
 
+function gdb($delete_branch) {
+    git branch -D $delete_branch;
+};
+
+function gstm($message) {
+    git stash -m $message;
+};
+
+function gstl() {
+    git stash list;
+};
+
+function gstp($pop_stash) {
+    git stash pop $pop_stash;
+};
+
 # surprised this is a valid function name
 function .. {
     # This is useful as fuck
@@ -66,7 +82,7 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\multiverse-neon.omp.json" |
 
 Set-Alias -Name k -Value kubectl
 Set-Alias -Name v -Value nvim
-Set-Alias -Name code -Value 'code-insiders'
+Set-Alias -Name codei -Value 'code-insiders'
 
 Set-Alias lvim 'C:\Users\thoma\.local\bin\lvim.ps1'
 
