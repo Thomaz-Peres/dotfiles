@@ -11,10 +11,13 @@ return {
       require("mason").setup()
 
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "rust_analyzer" },
+        ensure_installed = { "lua_ls", "rust_analyzer", "prettier", "csharpier", "netcoredbg", "fantomas" },
 
         handlers = {
           function(server_name)
+
+            if server_name == "omnisharp" then return end
+
             require("lspconfig")[server_name].setup({})
           end,
 
@@ -55,7 +58,7 @@ return {
             "--extensionLogDirectory=" .. vim.fs.dirname(vim.lsp.get_log_path()),
           },
           config = {
-            -- capabilities = require("cmp_nvim_lsp").default_capabilities(),
+            capabilities = require("cmp_nvim_lsp").default_capabilities(),
           },
       })
     end,
@@ -63,15 +66,15 @@ return {
 
   {
     "mfussenegger/nvim-dap",
-    optional = true,
+    -- optional = true,
     dependencies = {
-      {
-        "rcarriga/nvim-dap-ui",
-        "NicholasMata/nvim-dap-cs", -- Helper for c# debbuging
-      },
+      "rcarriga/nvim-dap-ui",
+      "NicholasMata/nvim-dap-cs", -- Helper for c# debbuging
+      "nvim-neotest/nvim-nio",
     },
     config = function()
       require("dap-cs").setup()
+      require("dapui").setup()
     end
   }
 }

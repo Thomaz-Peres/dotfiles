@@ -1,13 +1,18 @@
 return {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
+    lazy = false,
+    dependencies = {
+      { "nvim-treesitter/nvim-treesitter-context", oppts = { enable = true, mode = "topline" } }
+    },
     config = function()
-        local config = require("nvim-treesitter.configs");
-        config.setup({
-            ensure_installed = { "lua", "tsx", "rust", "yaml", "typescript", "ocaml", "nix", "c_sharp", "markdown", "javascript" },
-            sync_install = false,
-            highlight = { enable = true},
-            indent = { enable = true},
-        })
+        require "nvim-treesitter.install".compilers = { "clang" }
+        require("nvim-treesitter.configs").setup {
+            ensure_installed = { "c", "cpp", "html", "lua", "tsx", "rust", "yaml", "typescript", "ocaml", "nix", "c_sharp", "markdown", "javascript", "fsharp" },
+            auto_install = true,
+            highlight = { enable = true },
+            indent = { enable = true },
+            sync_install = true,
+        }
     end
 }
