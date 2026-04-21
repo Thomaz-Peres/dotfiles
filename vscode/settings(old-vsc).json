@@ -1,0 +1,288 @@
+{
+    // Editor
+    "editor.formatOnType": false,
+    "editor.renderWhitespace": "selection",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.formatOnSave": false,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.cursorBlinking": "smooth",
+    "editor.hover.sticky": true,
+    "editor.codeActionsOnSave": {},
+    "editor.minimap.enabled": false,
+    "editor.codeLensFontFamily": "FiraCode Nerd Font",
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.scrollbar.horizontalScrollbarSize": 15,
+    "editor.lineNumbers": "on",
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.snippetSuggestions": "top",
+    "editor.hover.delay": 400,
+    "editor.hover.enabled": true,
+    "editor.matchBrackets": "always",
+    "editor.lightbulb.enabled": "on",
+    "editor.overviewRulerBorder": false,
+    "editor.semanticHighlighting.enabled": "configuredByTheme",
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.smoothScrolling": false,
+    // "editor.tokenColorCustomizations": {
+    //     "[NarutoDark]": {
+    //         "textMateRules": [
+    //             {
+    //                 "scope": [
+    //                     "comment",
+    //                     "comment.line.double-slash.cs",
+    //                     "comment.block.documentation",
+    //                     "comment.block.documentation.js",
+    //                     "comment.line.double-slash.js",
+    //                 ],
+    //                 "settings": {
+    //                     "foreground": "#ffffff"
+    //                 }
+    //             }
+    //         ]
+    //     }
+    // },
+
+
+    // Workbench
+    "workbench.colorTheme": "Vira Carbon",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.location": "bottom",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.layoutControl.enabled": false,
+    "workbench.colorCustomizations": {
+        "sideBar.border": "#00000000",
+        "tab.activeBackground": "#332f49",
+        "terminal.border": "#000000",
+        "[Vira*]": {
+            "toolbar.activeBackground": "#80CBC426",
+            "button.background": "#80CBC4",
+            "button.hoverBackground": "#80CBC4cc",
+            "extensionButton.separator": "#80CBC433",
+            "extensionButton.background": "#80CBC414",
+            "extensionButton.foreground": "#80CBC4",
+            "extensionButton.hoverBackground": "#80CBC433",
+            "extensionButton.prominentForeground": "#80CBC4",
+            "extensionButton.prominentBackground": "#80CBC414",
+            "extensionButton.prominentHoverBackground": "#80CBC433",
+            "activityBarBadge.background": "#80CBC4",
+            "activityBar.activeBorder": "#80CBC4",
+            "activityBarTop.activeBorder": "#80CBC4",
+            "list.inactiveSelectionIconForeground": "#80CBC4",
+            "list.activeSelectionForeground": "#80CBC4",
+            "list.inactiveSelectionForeground": "#80CBC4",
+            "list.highlightForeground": "#80CBC4",
+            "sash.hoverBorder": "#80CBC480",
+            "list.activeSelectionIconForeground": "#80CBC4",
+            "scrollbarSlider.activeBackground": "#80CBC480",
+            "editorSuggestWidget.highlightForeground": "#80CBC4",
+            "textLink.foreground": "#80CBC4",
+            "progressBar.background": "#80CBC4",
+            "pickerGroup.foreground": "#80CBC4",
+            "tab.activeBorder": "#80CBC4",
+            "notificationLink.foreground": "#80CBC4",
+            "editorWidget.resizeBorder": "#80CBC4",
+            "editorWidget.border": "#80CBC4",
+            "settings.modifiedItemIndicator": "#80CBC4",
+            "panelTitle.activeBorder": "#80CBC4",
+            "breadcrumb.activeSelectionForeground": "#80CBC4",
+            "menu.selectionForeground": "#80CBC4",
+            "menubar.selectionForeground": "#80CBC4",
+            "editor.findMatchBorder": "#80CBC4",
+            "selection.background": "#80CBC440",
+            "statusBarItem.remoteBackground": "#80CBC414",
+            "statusBarItem.remoteHoverBackground": "#80CBC4",
+            "statusBarItem.remoteForeground": "#80CBC4",
+            "notebook.inactiveFocusedCellBorder": "#80CBC480",
+            "commandCenter.activeBorder": "#80CBC480",
+            "chat.slashCommandForeground": "#80CBC4",
+            "chat.avatarForeground": "#80CBC4",
+            "activityBarBadge.foreground": "#000000",
+            "button.foreground": "#000000",
+            "statusBarItem.remoteHoverForeground": "#000000"
+        }
+    },
+
+
+    // Files
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+
+    // Explorer
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "settings.json": "*.settings.json",
+        "local.settings.json": "*.settings.json"
+    },
+    "explorer.excludeGitIgnore": true,
+    "window.menuBarVisibility": "toggle",
+    "window.titleSeparator": "",
+    "window.titleBarStyle": "native",
+    // "window.title": "${folderName} ${separator} ${activeEditorShort}",
+    "window.title": " ",
+    "window.newWindowProfile": "Default",
+    "window.newWindowDimensions": "inherit",
+
+
+
+    // Search
+    "search.exclude": {
+        "**/node_modules/**": true,
+        "**/composer.lock": true,
+        "**/package-lock.json": true,
+        "**/bin/**": true,
+        "**/obj/**": true,
+        "**/.nuget.g.props": true,
+    },
+    "search.useIgnoreFiles": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": true,
+
+
+    // WSL
+    "remote.WSL.downloadInBackground": true,
+    "security.allowedUNCHosts": [
+        "wsl.localhost",
+        "wsl$"
+    ],
+
+
+    // Terminal
+    "terminal.integrated.defaultProfile.windows": "Arch (WSL)",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "terminal.integrated.profiles.windows": {
+        "pwsh": {
+            "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+            "args": [],
+            "icon": "terminal"
+        },
+    },
+    "terminal.integrated.profiles.linux": {
+        "arch": {
+            "path": "C:\\Windows\\system32\\wsl.exe",
+            "args": ["-d Arch"],
+            "icon": "terminal"
+        }
+    },
+
+    // Custom stylesheet, support native nest selectors
+    "custom-ui-style.electron": {
+        // Frameless window (no title bar, no MacOS traffic light buttons)
+        //  - "A frameless window removes all chrome applied by the OS, including window controls"
+        //  - https://www.electronjs.org/docs/latest/api/base-window#new-basewindowoptions
+        //  - https://www.electronjs.org/docs/latest/tutorial/custom-window-styles#frameless-windows
+        //  - https://www.electronjs.org/docs/latest/tutorial/custom-title-bar
+        "frame": false,
+        // Disable rounded corners (MacOS)
+        //  - https://www.electronjs.org/docs/latest/api/base-window#new-basewindowoptions
+        //  - "Whether frameless window should have rounded corners on MacOS"
+        //  - "Setting this property to false will prevent the window from being fullscreenable"
+        "roundedCorners": false,
+    },
+
+    "custom-ui-style.stylesheet": {
+        ".monaco.editor .scroll-decoration": "box-shadow: 0px 0px 20px rgba(0, 0, 0, .75) !important; top: -6px !important; transition: 0.2s padding !important;",
+        // ".monaco-hover": "box-shadow: 0px 8px 32px rgba(0, 0, 0, .45) !important; padding: 10px !important; border-radius; 25px !important; border: none !important;", // Unfortunately, this is not working correctly.
+        ".quick-input-widget": "transform: translateY(-50%) !important; top: 50% !important; box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important; padding: 10px 10px 18px 10px !important; border-radius: 20px !important;",
+        ".monaco.list-rows": "background: transparent !important;",
+        ".quick-input-filter .monaco-inputbox": "border-radius: 12px !important; padding: 8px !important; border: none !important; background-color: rgba(34, 34, 34, .40) !important; font-size: 14px !important; margin-bottom: 16px !important;",
+        ".monaco-list-row:hover": "background: rgba(0, 0, 0, .2) !important;",
+        ".monaco-inputbox input::placeholder": "color: rgba(255, 255, 255, .3) !important;",
+        ".slider": "position: absolute !important; right: 2px !important; width: 2px !important; left: auto !important;",
+        ".quick-input-widget .monaco-list-row:hover" : "background: rgba(0, 0, 0, 0.2) !important;",
+        // ".composite.has-composite-bar.header-or-footer.header": "padding-left: 4px",
+        // ".monaco-workbench .part": "height: 100% !important",
+        // ".title-label": "display: none !important",
+        // ".title-actions": "display: none !important",
+        ".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: space-evenly !important"
+    },
+
+    // Files config
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.quickSuggestions": {
+            "comments": "on"
+        },
+    },
+
+
+
+    // Extensions - Some extensions normally I active just when I will use
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
+
+
+    // Dotnet - csharp
+    "dotnet.server.useOmnisharp": true,
+    "omnisharp.sdkPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203",
+    "omnisharp.sdkVersion": "8.0.203",
+    "omnisharp.enableLspDriver": true,
+    "omnisharp.useModernNet": true,
+    "csharp.maxProjectFileCountForDiagnosticAnalysis": 250,
+    "dotnet.backgroundAnalysis.compilerDiagnosticsScope": "openFiles",
+    "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "openFiles",
+
+    // Git
+    "git.openRepositoryInParentFolders": "never",
+    "git.autofetch": false,
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true,
+    },
+
+    // Terraform
+    "terraform.languageServer.enable": true,
+
+    // Kubernetes - I don't remember when I use it
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.windows": "C:\\Users\\thoma\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\thoma\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+
+    "cmake.configureOnOpen": true,
+    "redhat.telemetry.enabled": false,
+
+    // Rust
+    "rust-analyzer.runnables.extraEnv": [],
+
+    // Material icon theme
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.folders.color": "#a66b2d",
+    "material-icon-theme.saturation": 1,
+    "material-icon-theme.hidesExplorerArrows": true,
+
+    // TODO highlight
+    "todohighlight.isEnable": true,
+
+    // ESlint
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ],
+
+
+    "update.mode": "manual",
+    "debug.allowBreakpointsEverywhere": true,
+    "lldb.suppressUpdateNotifications": true,
+    "chat.commandCenter.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    // CTRL + SHIFT + . to activate/desactivate breadcrumbs
+}
