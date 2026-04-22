@@ -3,7 +3,7 @@ return {
     build = ":TSUpdate",
     lazy = false,
     dependencies = {
-      { "nvim-treesitter/nvim-treesitter-context", oppts = { enable = true, mode = "topline" } }
+      { "nvim-treesitter/nvim-treesitter-context", opts = { enable = true, mode = "topline" } }
     },
     config = function()
         require "nvim-treesitter.install".compilers = { "clang" }
