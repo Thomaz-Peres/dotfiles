@@ -7,7 +7,7 @@ return {
     },
     config = function()
         require "nvim-treesitter.install".compilers = { "clang" }
-        require("nvim-treesitter.configs").setup {
+        require("nvim-treesitter.config").setup {
             ensure_installed = { "c", "cpp", "html", "lua", "tsx", "rust", "yaml", "typescript", "ocaml", "nix", "c_sharp", "markdown", "javascript", "fsharp" },
             auto_install = true,
             highlight = { enable = true },
