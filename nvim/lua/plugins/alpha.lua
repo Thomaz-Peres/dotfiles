@@ -13,12 +13,15 @@ return {
             "╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝",
         }
         dashboard.section.buttons.val = {
-            dashboard.button("e", "  > New file", ":lua require('core.utils.utils').create_new_file()<CR>"),
-            dashboard.button("f", "  > Find file in git repo", ":Telescope git_files <CR>"),
+            dashboard.button("e", "  > New file", ":enew"),
+            dashboard.button("f", "  > Find file", ":Telescope find_files<CR>"),
+            dashboard.button("g", "  > Find file in git repo", ":Telescope git_files <CR>"),
             dashboard.button("r", "  > Recent", ":Telescope oldfiles<CR>"),
+            dashboard.button("s", "  > Live grep", ":Telescope live_grep<CR>"),
             dashboard.button("l", "🗘  > Open last session", ":SessionManager load_last_session<CR>"),
             dashboard.button("o", "  > Open session", ":SessionManager load_session<CR>"),
             dashboard.button("p", "  > Open project", ":Telescope projects<CR>"),
+            dashboard.button("q", "  > Quit", ":qa<CR>"),
         }
         local fortune = require("alpha.fortune")
         dashboard.section.footer.val = fortune()

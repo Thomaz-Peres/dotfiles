@@ -14,7 +14,6 @@ keymap.set("n", "ss", ":split<Return>")
 keymap.set("n", "sv", ":vsplit<Return>")
 
 
-
 -- Move to window using the <ctrl> hjkl keys
 keymap.set("n", "<C-h>", "<C-w>h", { desc = "Go to Left Window", remap = true })
 keymap.set("n", "<C-j>", "<C-w>j", { desc = "Go to Lower Window", remap = true })
@@ -36,6 +35,6 @@ keymap.set("v", "<A-j>", ":<C-u>execute \"'<,'>move '>+\" . v:count1<cr>gv=gv", 
 keymap.set("v", "<A-k>", ":<C-u>execute \"'<,'>move '<-\" . (v:count1 + 1)<cr>gv=gv", { desc = "Move Up" })
 
 -- Diagnostics
-keymap.set("n", "<C-j>", function()
-    vim.diagnostic.get_next(opts)
-end, opts)
+-- keymap.set("n", "<C-j>", function()
+--     vim.diagnostic.get_next(opts)
+-- end, opts)

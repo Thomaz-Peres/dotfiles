@@ -4,7 +4,8 @@ vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"
 
 -- vim.wo.number = true;
--- vim.opt.number = true
+vim.opt.number = true
+
 vim.opt.relativenumber = true
 vim.opt.title = true
 vim.opt.autoindent = false
@@ -41,6 +42,6 @@ vim.opt.showmode = false -- Dont show mode since we have a statusline
 vim.opt.sidescrolloff = 8 -- Columns of context
 vim.opt.smoothscroll = true
 
-vim.g.lazyvim_prettier_needs_config = true
-vim.g.lazyvim_picker = "telescope"
-vim.g.lazyvim_cmp = "blink.cmp"
+-- vim.g.lazyvim_prettier_needs_config = true
+-- vim.g.lazyvim_picker = "telescope"
+-- vim.g.lazyvim_cmp = "blink.cmp"
