@@ -1,8 +1,15 @@
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
---keymap.set('n', '<C-b>', ':Neotree filesystem reveal left<CR>', {})
+keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagnostic [Q]uickfix list" })
+
+keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
+
+
+
+-- keymap.set('n', '<C-b>', ':Neotree filesystem reveal left<CR>', {})
 keymap.set('n', '<C-b>', ':NvimTreeToggle<CR>')
+keymap.set("n", "<leader>k", ":NvimTreeFindFile", { desc = "Reveal open file in neo tree", silent = true })
 
 
 -- Select all

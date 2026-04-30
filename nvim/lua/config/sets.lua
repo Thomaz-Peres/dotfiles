@@ -4,7 +4,7 @@ vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"
 
 -- vim.wo.number = true;
-vim.opt.number = true
+vim.opt.number = false
 
 vim.opt.relativenumber = true
 vim.opt.title = true
@@ -17,7 +17,7 @@ vim.opt.cmdheight = 1
 vim.opt.laststatus = 3
 vim.opt.expandtab = true
 vim.opt.scrolloff = 10
--- vim.opt.shell = "pwsh"
+vim.opt.shell = "pwsh"
 vim.opt.backupskip = { "/tmp/*", "/private/tmp/*" }
 vim.opt.inccommand = "split"
 vim.opt.ignorecase = true
@@ -32,7 +32,13 @@ vim.opt.wildignore:append({ "*/node_modules/*" })
 vim.opt.splitbelow = true -- Put new windows below current
 vim.opt.splitright = true -- Put new windows right of current
 vim.opt.splitkeep = "cursor"
-vim.opt.mouse = ""
+vim.opt.mouse = "a"
+
+vim.opt.cursorline = true
+-- vim.opt.signcolumnn = "yes"
+
+vim.opt.list = true
+vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 vim.opt.expandtab = true -- Use spaces instead of tabs
 -- vim.opt.foldmethod = "indent"
@@ -45,3 +51,7 @@ vim.opt.smoothscroll = true
 -- vim.g.lazyvim_prettier_needs_config = true
 -- vim.g.lazyvim_picker = "telescope"
 -- vim.g.lazyvim_cmp = "blink.cmp"
+
+vim.schedule(function()
+	vim.opt.clipboard = "unnamedplus"
+end)
