@@ -22,7 +22,7 @@ return {
 		scroll = { enabled = true, animate = { duration = { step = 15, total = 250 } } },
 		statuscolumn = { enabled = false },
 		words = { enabled = true },
-        terminal = { enabled = true },
+		terminal = { enabled = true },
 	},
 	keys = {
 		{
@@ -78,12 +78,33 @@ return {
 			end,
 			desc = "Recent Files",
 		},
-        {
-            "<leader>t",
-            function ()
-                Snacks.terminal()
-            end,
-            desc = "Terminal"
-        }
+		{
+			"<leader>t",
+			function()
+				Snacks.terminal()
+			end,
+			desc = "Terminal",
+		},
+		{
+			"<leader>gb",
+			function()
+				Snacks.picker.git_branches()
+			end,
+			desc = "Git Branches",
+		},
+		{
+			"<leader>gc",
+			function()
+				Snacks.picker.git_log()
+			end,
+			desc = "Git Commits",
+		},
+		{
+			"<leader>gs",
+			function()
+				Snacks.picker.git_status()
+			end,
+			desc = "Git Status",
+		},
 	},
 }
