@@ -22,6 +22,7 @@ return {
 		scroll = { enabled = true, animate = { duration = { step = 15, total = 250 } } },
 		statuscolumn = { enabled = false },
 		words = { enabled = true },
+        terminal = { enabled = true },
 	},
 	keys = {
 		{
@@ -42,5 +43,47 @@ return {
 			end,
 			desc = "Dismiss All Notifications",
 		},
+		{
+			"<leader>pf",
+			function()
+				Snacks.picker.files()
+			end,
+			desc = "Find files",
+		},
+		{
+			"<C-q>",
+			function()
+				Snacks.picker.git_files()
+			end,
+			desc = "Git Files",
+		},
+		{
+			"<leader>fg",
+			function()
+				Snacks.picker.grep()
+			end,
+			desc = "Live grep",
+		},
+		{
+			"<leader>ps",
+			function()
+				Snacks.picker.grep_word()
+			end,
+			desc = "Grep word",
+		},
+		{
+			"<leader>fr",
+			function()
+				Snacks.picker.recent()
+			end,
+			desc = "Recent Files",
+		},
+        {
+            "<leader>t",
+            function ()
+                Snacks.terminal()
+            end,
+            desc = "Terminal"
+        }
 	},
 }

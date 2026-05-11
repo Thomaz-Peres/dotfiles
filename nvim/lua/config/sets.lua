@@ -42,6 +42,9 @@ vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 vim.opt.expandtab = true -- Use spaces instead of tabs
 -- vim.opt.foldmethod = "indent"
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+vim.opt.foldlevel = 99
 
 vim.opt.linebreak = true -- Wrap lines at convenient points
 vim.opt.showmode = false -- Dont show mode since we have a statusline

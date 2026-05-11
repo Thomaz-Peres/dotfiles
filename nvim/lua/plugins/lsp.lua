@@ -24,11 +24,12 @@ return {
                     map("<leader>rn", vim.lsp.buf.rename, "Rename Symbol")
                     map("]d", vim.diagnostic.goto_next, "Next Diagnostic")
                     map("[d", vim.diagnostic.goto_prev, "Prev Diagnostic")
+                    vim.lsp.inlay_hint.enable(true, { bufnr = ev.buf })
                 end,
             })
 
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "rust_analyzer" },
+        ensure_installed = { "lua_ls", "rust_analyzer", "ts_ls", "pyright", "cssls", "html" },
 
                 handlers = {
                     function(server_name)
@@ -89,8 +90,29 @@ return {
             "nvim-neotest/nvim-nio",
         },
         config = function()
+            local dap = require("dap")
+            local dapui = require("dapui")
             require("dap-cs").setup()
-            require("dapui").setup()
+            dapui.setup()
+
+            -- Auto open/close UI with debug session
+            dap.listeners.after.event_initialized["dapui_config"] = function() dapui.open() end
+            dap.listeners.before.event_terminated["dapui_config"] = function() dapui.close() end
+            dap.listeners.before.event_exited["dapui_config"] = function() dapui.close() end
+
+            local map = function(keys, fn, desc)
+                vim.keymap.set("n", keys, fn, { desc = desc })
+            end
+            map("<F5>",        dap.continue,           "Debug: Continue")
+            map("<F10>",       dap.step_over,          "Debug: Step Over")
+            map("<F11>",       dap.step_into,          "Debug: Step Into")
+            map("<F12>",       dap.step_out,           "Debug: Step Out")
+            map("<leader>db",  dap.toggle_breakpoint,  "Debug: Toggle Breakpoint")
+            map("<leader>dB",  function()
+                dap.set_breakpoint(vim.fn.input("Breakpoint condition: "))
+            end, "Debug: Conditional Breakpoint")
+            map("<leader>du",  dapui.toggle,           "Debug: Toggle UI")
+            map("<leader>dr",  dap.repl.open,          "Debug: Open REPL")
         end
     },
 

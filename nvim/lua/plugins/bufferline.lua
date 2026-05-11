@@ -13,6 +13,9 @@ return {
     { "[B", "<cmd>BufferLineMovePrev<cr>", desc = "Move buffer prev" },
     { "]B", "<cmd>BufferLineMoveNext<cr>", desc = "Move buffer next" },
     { "<leader>bj", "<cmd>BufferLinePick<cr>", desc = "Pick Buffer" },
+    { "<leader>bd", function() Snacks.bufdelete() end, desc = "Close Buffer" },
+    { "<leader>bD", function() Snacks.bufdelete.all() end, desc = "Close All Buffers" },
+    { "<leader>bo", function() Snacks.bufdelete.other() end, desc = "Close Other Buffers" },
   },
   opts = {
     options = {

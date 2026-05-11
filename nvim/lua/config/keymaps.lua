@@ -5,21 +5,16 @@ keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagnosti
 
 keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 
-
-
 -- keymap.set('n', '<C-b>', ':Neotree filesystem reveal left<CR>', {})
-keymap.set('n', '<C-b>', ':NvimTreeToggle<CR>')
-keymap.set("n", "<leader>k", ":NvimTreeFindFile", { desc = "Reveal open file in neo tree", silent = true })
-
+-- keymap.set("n", "<C-b>", ":NvimTreeToggle<CR>")
+-- keymap.set("n", "<leader>k", ":NvimTreeFindFile<CR>", { desc = "Reveal open file in neo tree", silent = true })
 
 -- Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
 
-
 -- Split window
 keymap.set("n", "ss", ":split<Return>")
 keymap.set("n", "sv", ":vsplit<Return>")
-
 
 -- Move to window using the <ctrl> hjkl keys
 keymap.set("n", "<C-h>", "<C-w>h", { desc = "Go to Left Window", remap = true })
@@ -42,6 +37,4 @@ keymap.set("v", "<A-j>", ":<C-u>execute \"'<,'>move '>+\" . v:count1<cr>gv=gv", 
 keymap.set("v", "<A-k>", ":<C-u>execute \"'<,'>move '<-\" . (v:count1 + 1)<cr>gv=gv", { desc = "Move Up" })
 
 -- Diagnostics
--- keymap.set("n", "<C-j>", function()
---     vim.diagnostic.get_next(opts)
--- end, opts)
+-- navigate with ]d / [d (set in LspAttach in lsp.lua)
