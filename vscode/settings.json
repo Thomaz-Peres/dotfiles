@@ -10,7 +10,7 @@
         "https://spec.openapis.org/": true,
         "https://json-schema.org/": true,
         "https://developer.microsoft.com/json-schemas/": true,
-        "https://aka.ms/terminal-profiles-schema": true
+        "https://aka.ms/terminal-profiles-schema": true,
     },
 
     // Editor
@@ -46,10 +46,10 @@
     "editor.tokenColorCustomizations": {
         "[Material Theme Darker High Contrast]": {
             "comments": "#4A4A4A",
-            "variables": "#EEFFFF"
+            "variables": "#EEFFFF",
         },
         "[NarutoDark]": {
-            "comments": "#666666"
+            "comments": "#666666",
             // "variables": "#EEFFFF",
         },
         "[Material Theme Darker]": {
@@ -97,14 +97,14 @@
             "sideBar.background": "#131316",
             "list.inactiveSelectionForeground": "#80CBC4",
             "notificationLink.foreground": "#80CBC4",
-            "editorWidget.border": "#80CBC4"
+            "editorWidget.border": "#80CBC4",
         },
         "[Material Theme Darker]": {
             "editor.background": "#101013",
             "sideBar.background": "#09090a",
             "list.inactiveSelectionForeground": "#80CBC4",
             "notificationLink.foreground": "#80CBC4",
-            "editorWidget.border": "#80CBC4"
+            "editorWidget.border": "#80CBC4",
         },
         "[NarutoDark]": {
             "editor.background": "#060613",
@@ -117,7 +117,7 @@
             "editor.background": "#0a0a18",
             "sideBar.background": "#06060e",
             "list.inactiveSelectionForeground": "#80CBC4",
-            "editorWidget.border": "#80CBC4"
+            "editorWidget.border": "#80CBC4",
         }
     },
 
@@ -142,10 +142,10 @@
 
     // Window
     "window.commandCenter": false,
-    "window.density.layout": "default",
     "window.menuBarVisibility": "toggle",
     "window.titleSeparator": "",
     "window.titleBarStyle": "custom",
+    // "window.title": "${folderName} ${separator} ${activeEditorShort}",
     "window.title": "${folderName}",
     "window.newWindowProfile": "Default",
     "window.newWindowDimensions": "inherit",
@@ -159,7 +159,7 @@
         "**/package-lock.json": true,
         "**/bin/**": true,
         "**/obj/**": true,
-        "**/.nuget.g.props": true
+        "**/.nuget.g.props": true,
     },
     "search.useIgnoreFiles": true,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -278,8 +278,8 @@
 
     // Kubernetes - I don't remember when I use it
     "vs-kubernetes": {
-        "vscode-kubernetes.helm-path.windows": "C:\\Users\\thoma\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
-        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\thoma\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+        "vscode-kubernetes.helm-path.windows": "{USER}\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.minikube-path.windows": "{USER}\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
     },
 
     // Rust
@@ -325,8 +325,9 @@
     "chat.viewSessions.orientation": "stacked",
 
     // Remote - SSH
-    "remote.SSH.configFile": "", // ssh config server hosts
+    "remote.SSH.configFile": "{USER}\\.ssh\\config\\server-hosts",
     "remote.SSH.remotePlatform": {
+        "docker-services": "linux"
     },
     "remote.autoForwardPortsSource": "hybrid",
 
@@ -342,7 +343,10 @@
     "git.blame.statusBarItem.enabled": true,
     "js/ts.contentMappers.enabled": true,
     "js/ts.experimental.useTsgo": true,
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "workbench.diffEditorAssociations": {
+        "*.md": "default"
+    }
     // "security.workspace.trust.untrustedFiles": "open",
     // CTRL + SHIFT + . to activate/desactivate breadcrumbs
 }
